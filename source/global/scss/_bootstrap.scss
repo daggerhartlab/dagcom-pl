@@ -1,0 +1,11 @@
+//
+// Use this file to import the parts of Bootstrap we want.
+//
+// Functions needed for the variables override
+@import "../../../node_modules/bootstrap/scss/functions";
+// Override variables
+@import "bootstrap-variables";
+// Bootstrap - everything
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Alternatively, we can do this per-component ...

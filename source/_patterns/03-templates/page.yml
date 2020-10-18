@@ -1,0 +1,4 @@
+## Templates must define the values they expect use so that when Pages reference
+## patternData@, the values can be merged by Twig.
+navbar: {}
+footer: {}

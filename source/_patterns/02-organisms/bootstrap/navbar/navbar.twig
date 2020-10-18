@@ -1,0 +1,36 @@
+<header class="header">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="{{ site_url }}">
+			<img src="{{ logo_src }}" alt="{{ site_name }}">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarHeader">
+			{% if menu %}
+			<ul class="navbar-nav mr-auto">
+				{% for item in menu %}
+					{% if item.children %}
+						<li class="nav-item dropdown {{ item.classes|default([]).join(' ') }} {% if item.current %}active{% endif %}">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-{{ loop.parent.loop.index }}--{{ loop.index }}" data-toggle="dropdown">
+								{{ item.title }}
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-{{ loop.parent.loop.index }}--{{ loop.index }}">
+								{% for child in item.children %}
+									<a class="dropdown-item {% if child.current %}active{% endif %}" href="{{ child.link }}">{{ child.title }}</a>
+								{% endfor %}
+							</div>
+						</li>
+					{% else %}
+						<li class="nav-item {{ item.classes|default([]).join(' ') }} {% if item.current %}active{% endif %}">
+							<a class="nav-link" href="{{ item.link }}">{{ item.title }}</a>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+			{% endif %}
+		</div>
+	</nav>
+</header>
+

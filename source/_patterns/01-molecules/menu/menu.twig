@@ -1,0 +1,43 @@
+{% import _self as menus %}
+
+{% if title %}
+	{% spaceless %}
+	<h{{ title.level|default(3) }}>
+		{% if title.link %}
+			<a href="{{ title.link }}">{{ title.title }}</a>
+		{% else %}
+			{{ title.title }}
+		{% endif %}
+	</h{{ title.level|default(3) }}>
+	{% endspaceless %}
+{% endif %}
+
+{{ menus.menu_links(items, attributes) }}
+
+{% macro menu_links(items, attributes) %}
+	{% import _self as menus %}
+	{% if items %}
+		<ul{{ create_attribute( attributes ) }}>
+			{% for item in items %}
+				<li{{ create_attribute( item.attributes ) }}>
+
+					{% if item.link %}
+						{% spaceless %}
+						<a href="{{ item.link }}">
+							{% if item.image_src %}
+								<span class="menu-icon"><img src="{{ item.image_src }}" /></span>
+							{% endif %}
+							{{ item.title }}
+						</a>
+						{% endspaceless %}
+					{% else %}
+						{{ item.title }}
+					{% endif %}
+					{% if item.below %}
+						{{ menus.menu_links(item.below) }}
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+{% endmacro %}

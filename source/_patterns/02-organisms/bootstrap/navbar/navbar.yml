@@ -1,0 +1,36 @@
+site_url: '#'
+site_name: 'Tanager'
+logo_src: '/assets/images/logo.png'
+menu:
+  -
+    title: 'Link 1'
+    link: '#'
+    target: ''
+  -
+    title: 'Link 2'
+    link: '#'
+    target: ''
+  -
+    title: 'Dropdown 1'
+    link: '#'
+    children:
+      -
+        title: 'Child Link 1 - 1'
+        link: '#'
+        target: ''
+      -
+        title: 'Child Link 1 - 2'
+        link: '#'
+        target: ''
+  -
+    title: 'Dropdown 2'
+    link: '#'
+    children:
+      -
+        title: 'Child Link 2 - 1'
+        link: '#'
+        target: ''
+      -
+        title: 'Child Link 2 - 2'
+        link: '#'
+        target: ''

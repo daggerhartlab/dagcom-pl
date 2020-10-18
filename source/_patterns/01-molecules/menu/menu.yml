@@ -1,0 +1,23 @@
+# Items here should represent possible variants that the design should account for.
+items:
+  - title: Bold top level item with long text
+    link: "#"
+    attributes:
+      class: bold
+  - title: Top level short
+    link: "#"
+  - title: Top level with children
+    link: "#"
+    below:
+      - title: Child short
+        link: "#"
+      - title: Child item with long text
+        link: "#"
+      - title: Child has children
+        link: "#"
+        below:
+          - title: Grandchild
+            link: "#"
+            below:
+              - title: Great grandchild
+                link: '#'

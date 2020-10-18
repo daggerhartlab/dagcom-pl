@@ -1,0 +1,5 @@
+colors:
+  success: alert-solid
+  danger: alert-solid
+  warning: alert-solid
+  info: alert-solid

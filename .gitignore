@@ -1,0 +1,6 @@
+/dist/
+/node_modules/
+/public/
+/stock/
+/template/
+dependencyGraph.json

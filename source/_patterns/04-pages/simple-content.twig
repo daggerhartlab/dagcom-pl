@@ -1,0 +1,7 @@
+{% extends "@templates/page.twig" %}
+
+{% block main %}
+	{# Include organisms, molecules, etc here. #}
+	{% include '@organisms/hero-simple/hero-simple.twig' with hero_simple %}
+	{% include '@organisms/content-html/content-html.twig' with content_html %}
+{% endblock %}

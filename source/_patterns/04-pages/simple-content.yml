@@ -1,0 +1,8 @@
+## Template values.
+navbar: 'patternData@02-organisms/bootstrap/navbar/navbar'
+footer: 'patternData@02-organisms/footer/footer'
+
+## Page values.
+title: Simple Content
+hero_simple: 'patternData@02-organisms/hero-simple/hero-simple'
+content_html: 'patternData@02-organisms/content-html/content-html'

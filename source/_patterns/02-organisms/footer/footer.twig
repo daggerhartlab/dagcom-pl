@@ -1,0 +1,16 @@
+<footer class="footer">
+	<div class="container-wide">
+		{% if menu %}
+			<ul class="nav">
+				{% for item in menu %}
+					<li class="nav-item {{ item.classes|default([]).join(' ') }}">
+						<a class="nav-link {% if item.current %}active{% endif %}" href="{{ item.link }}">{{ item.title }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		{% endif %}
+		<div class="copyright text-center text-md-left">
+			{{ copyright }}
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,44 @@
+/* ***************** */
+/* Mixins */
+/* ***************** */
+@mixin screen-sm() {
+  // min-width: 640px
+  @media screen and (min-width: map-get($grid-breakpoints, "sm")) {
+    @content;
+  }
+}
+
+@mixin screen-md() {
+  // min-width: 700px
+  @media screen and (min-width: map-get($grid-breakpoints, "md")) {
+    @content;
+  }
+}
+
+@mixin screen-lg() {
+  // min-width: 1024px
+  @media screen and (min-width: map-get($grid-breakpoints, "lg")) {
+    @content;
+  }
+}
+
+@mixin screen-xl() {
+  // min-width: 1280px
+  @media screen and (min-width: map-get($grid-breakpoints, "xl")) {
+    @content;
+  }
+}
+
+@mixin screen-xx() {
+  // min-width: 1900px
+  @media screen and (min-width: map-get($grid-breakpoints, "xx")) {
+    @content;
+  }
+}
+
+@mixin xs-only() {
+  // max-width: 639.8px
+  @media screen and (max-width: map-get($grid-breakpoints, "sm") - .02px) {
+    @content;
+  }
+}

@@ -1,0 +1,70 @@
+{
+	"root": "./public",
+	"assets": {
+		"base": "source/assets/",
+		"dest": "public/assets/"
+	},
+	"scripts": {
+		"files": [
+			"source/global/js/*.js",
+			"source/_patterns/**/*.js"
+		],
+		"libraries": [
+			"node_modules/jquery/dist/jquery.min.js",
+			"node_modules/jquery/dist/jquery.slim.min.js",
+			"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+			"node_modules/lazysizes/lazysizes.min.js"
+		],
+		"dest": "public/assets/js/",
+		"name": "scripts.js"
+	},
+	"misc": {
+		"scripts": {
+			"files": [
+				"misc/**/*.js"
+			],
+			"name": "scripts.js"
+		},
+		"dest": "public/misc/",
+		"watch": ["misc/*", "misc/**/*"]
+	},
+	"scss": {
+		"files": [
+			"source/global/scss/styles.scss"
+		],
+		"watch": [
+			"source/global/scss/*.scss",
+			"source/global/scss/**/*.scss",
+			"source/_patterns/**/*.scss"
+		],
+		"dest": "public/assets/css/"
+	},
+	"fonts": {
+		"base": "source/global/fonts/",
+		"files": [
+			"source/global/fonts/**/*"
+		],
+		"dest": "public/assets/fonts/"
+	},
+	"images": {
+		"base": "source/global/images/",
+		"files": [
+			"source/global/images/**/*"
+		],
+		"dest": "public/assets/images/"
+	},
+	"patternlab": {
+		"styleguide": {
+			"files": [
+				"core/styleguide/**"
+			],
+			"dest": "public/styleguide/"
+		},
+		"files": [
+			"source/_patterns/**/*.twig",
+			"source/_patterns/**/*.yml",
+			"source/_data/*.yml",
+			"source/_data/*.json"
+		]
+	}
+}
