@@ -5,8 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"gulp": "gulp",
-		"build": "patternlab build --config ./patternlab-config.json",
-		"pl:install": "patternlab install --config ./patternlab-config.json && npm run pl:pluginlinks",
+		"build": "patternlab build --config patternlab-config.json",
+		"pl:install": "patternlab install --config patternlab-config.json && npm run pl:pluginlinks",
 		"pl:pluginlinks": "npm link source/_plugins/plugin-pattern-data"
 	},
 	"repository": {
