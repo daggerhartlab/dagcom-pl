@@ -30,11 +30,11 @@
 	},
 	"scss": {
 		"files": [
-			"source/global/scss/styles.scss"
+			"source/scss/styles.scss"
 		],
 		"watch": [
-			"source/global/scss/*.scss",
-			"source/global/scss/**/*.scss",
+			"source/scss/*.scss",
+			"source/scss/**/*.scss",
 			"source/_patterns/**/*.scss"
 		],
 		"dest": "public/assets/css/"
