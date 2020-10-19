@@ -6,8 +6,7 @@
 	"scripts": {
 		"gulp": "gulp",
 		"build": "patternlab build --config patternlab-config.json",
-		"pl:install": "patternlab install --config patternlab-config.json && npm run pl:pluginlinks",
-		"pl:pluginlinks": "npm link source/_plugins/plugin-pattern-data"
+		"pl:install": "patternlab install --config patternlab-config.json"
 	},
 	"repository": {
 		"type": "git",
@@ -39,7 +38,8 @@
 		"gulp-uglify": "^3.0.2",
 		"jquery": "^3.5.1",
 		"lazysizes": "^5.2.2",
-		"postcss-load-config": "^2.1.0"
+		"postcss-load-config": "^2.1.0",
+		"patternlab-pattern-data": "github:daggerhartlab/patternlab-pattern-data"
 	},
 	"devDependencies": {
 		"@pattern-lab/cli": "^5.10.1",
