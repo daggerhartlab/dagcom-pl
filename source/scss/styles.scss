@@ -15,3 +15,18 @@
 @import "../_patterns/02-organisms/hero-simple/hero-simple";
 
 @import "../_patterns/02-organisms/bootstrap/navbar/navbar";
+
+// For pattern lab only - override the default styles
+.pl-c-main {
+	.pl-c-category__title,
+	.pl-c-category__title a,
+	.pl-c-pattern__header,
+	.pl-c-pattern__header a {
+		color: $white !important;
+	}
+	.pl-c-pattern__title-link:focus,
+	.pl-c-pattern__title-link:hover {
+		color: darken($white, 20%) !important;
+	}
+}
+
