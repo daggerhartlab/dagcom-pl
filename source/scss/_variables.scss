@@ -7,13 +7,19 @@ $pink-light: #f06a9c;
 $green-neon: #2df9af;
 $green-neon-dark: #02c87f;
 $navy: #070c21;
-$white: #f8f8f9;
+$navy-alt: #071341;
+$white: #fff;
+$white-alt: #f8f8f9;
 
 // Functional
 $body-bg: $navy;
-$body-color: $white;
+$body-color: $white-alt;
+$text-green: $green-neon;
+$link-hover: $green-neon;
 $bg-pink: $pink-light;
-$headings-color: $green-neon;
+$headings-green: $green-neon;
+$heading-white: $white;
 
 $headings-font-family: 'Play', sans-serif;
 $font-family-base: 'PT Sans', sans-serif;
+

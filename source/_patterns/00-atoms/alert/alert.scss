@@ -1,0 +1,12 @@
+.alert-success {
+	background-color: lighten($green-neon, 10%);
+	color: darken($green-neon-dark, 30%);
+}
+.alert-danger {
+	background-color: lighten($pink, 30%);
+	color: darken($pink, 30%);
+}
+.alert-info {
+	background-color: $white;
+	color: $navy;
+}

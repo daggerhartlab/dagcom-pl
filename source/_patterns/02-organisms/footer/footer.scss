@@ -1,7 +1,26 @@
 .footer {
-	background: $gray-200;
-
-	.menu li {
-		display: inline-block;
+	padding: 100px 0 24px 0;
+	h3 {
+		color: $body-color;
+		font-size: 20px;
+		margin-top: 16px;
+	}
+	img.footer-logo {
+		max-width: 150px;
+	}
+	.text-columns {
+		column-count: 2;
+		a {
+			display: block;
+			font-size: 16px;
+			line-height: 1;
+			margin-bottom: 16px;
+			text-decoration: underline;
+		}
+	}
+	.copyright {
+		font-size: 14px;
+		color: $text-green;
+		padding-top: 60px;
 	}
 }

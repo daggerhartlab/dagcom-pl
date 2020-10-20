@@ -1,0 +1,7 @@
+.container {
+	width: 90%;
+	max-width: 1600px;
+	@include screen-lg() {
+		width: 85%;
+	}
+}

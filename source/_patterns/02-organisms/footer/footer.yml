@@ -1,8 +1,24 @@
-copyright: '&copy; All my content. All Rights Reserved.'
-menu:
-  -
-    title: 'Link 1'
-    link: '#'
-  -
-    title: 'Link 2'
-    link: '#'
+copyright: 'Daggerhart Lab. All Rights Reserved'
+logo: '/assets/images/footer-logo.png'
+alt: 'Daggerhart Lab Logo'
+column_one: |
+  <h3>About Daggerhart Lab</h3>
+  <p>Asheville, NC website and application developers on a mission to build a better, sustainable, more equitable web development company.</p>
+  <p>email: <a href="mailto:info@daggerhartlab.com">info@daggerhartlab.com</a></p>
+  <p>phone: <a href="tel:123-321-1233">123-321-1233</a>
+column_two: |
+  <h3>Plugins & Modules</h3>
+  <p>We are committed to keeping involved in open-source. Our team currently works with the following Drupal and WordPress plugins and modules, helps maintain them, or actively contributes to keeping them updated.</p>
+  <div class="text-columns">
+  <a href="#">OpenID Connect Generic</a>
+  <a href="#">Eventbrite Attendees Block</a>
+  <a href="#">Sweet Widget Admin UI</a>
+  <a href="#">Sweet Widget Templates for WordPress</a>
+  <a href="#">WordPress: Add Images to Taxonomy Terms</a>
+  <a href="#">Unlimited Fields Remove</a>
+  <a href="#">Cron Reports</a>
+  <a href="#">Views JS Load</a>
+  <a href="#">Custom Batch Processes</a>
+  <a href="#">Widget Wrangler</a>
+  <a href="#">Query Wrangler</a>
+  </div>
