@@ -10,6 +10,7 @@
 	letter-spacing: 1.3px;
 	text-transform: uppercase;
 	position: relative;
+	color: $white;
 	&:after {
 		content: '';
 		background-image: url(../images/light-arrow.svg);
@@ -31,5 +32,19 @@
 	}
 	&.btn-primary {
 		background-image: url('../images/pink-bubble.png');
+	}
+	&.btn-secondary {
+		background-image: url('../images/green-bubble.png');
+		color: $navy;
+		&:after {
+			background-image: url(../images/dark-arrow.svg);
+		}
+	}
+	&.btn-light {
+		background-image: url('../images/white-bubble.png');
+		color: $navy;
+		&:after {
+			background-image: url(../images/dark-arrow.svg);
+		}
 	}
 }

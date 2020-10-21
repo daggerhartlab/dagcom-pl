@@ -29,5 +29,13 @@
 	.pl-c-pattern__title-link:hover {
 		color: darken($white, 20%) !important;
 	}
+	#atoms-button-light {
+		background: $pink;
+		padding-bottom: 20px;
+	}
+	#atoms-button-secondary {
+		background: $white;
+		padding-bottom: 20px;
+	}
 }
 
