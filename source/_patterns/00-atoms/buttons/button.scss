@@ -32,17 +32,23 @@
 	}
 	&.btn-primary {
 		background-image: url('../images/pink-bubble.png');
+		&.dark-text {
+			color: $text-navy;
+			&:after {
+				background-image: url(../images/dark-arrow.svg);
+			}
+		}
 	}
 	&.btn-secondary {
 		background-image: url('../images/green-bubble.png');
-		color: $navy;
+		color: $text-navy;
 		&:after {
 			background-image: url(../images/dark-arrow.svg);
 		}
 	}
 	&.btn-light {
 		background-image: url('../images/white-bubble.png');
-		color: $navy;
+		color: $text-navy;
 		&:after {
 			background-image: url(../images/dark-arrow.svg);
 		}
