@@ -6,3 +6,4 @@ footer: 'patternData@02-organisms/footer/footer'
 title: Homepage
 cta_block_parallax: 'patternData@02-organisms/cta-block-parallax/cta-block-parallax'
 services_list: 'patternData@02-organisms/services-list/services-list'
+cta_block_animated: 'patternData@02-organisms/cta-block-animated/cta-block-animated'
