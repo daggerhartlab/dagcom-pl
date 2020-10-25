@@ -1,0 +1,16 @@
+<div class="services-list row-spacer">
+	<div class="container">
+		<div class="pre-heading">{{ subheading }}</div>
+		<h2>{{ heading }}</h2>
+		<div class="cards-wrapper d-flex">
+			{% for item in items %}
+				<div class="service-card">
+					<img src="{{ item.image }}"  alt=""/>
+					<h3>{{ item.title }}</h3>
+					{{ item.content }}
+					<a href="{{ item.url }}">{{ item.text }}</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

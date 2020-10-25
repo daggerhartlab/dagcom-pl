@@ -1,0 +1,35 @@
+heading: Vivamus magna justo lacinia eget consectetur sed
+subheading: Dictum & porta
+items:
+  - title: Wordpress Development
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
+    url: #
+    text: CTA Link Text
+    image: /assets/images/wp.png
+    alt: ''
+  - title: Front End Development
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
+    url: #
+    text: CTA Link Text
+    image: /assets/images/fe.png
+    alt: ''
+  - title: Drupal Development
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
+    url: #
+    text: CTA Link Text
+    image: /assets/images/d8.png
+    alt: ''
+  - title: Back End Development
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
+    url: #
+    text: CTA Link Text
+    image: /assets/images/be.png
+    alt: ''
+  - title: Custom Development
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
+    url: #
+    text: CTA Link Text
+    image: /assets/images/cu.png
+    alt: ''
+
+

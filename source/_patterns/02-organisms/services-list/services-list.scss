@@ -1,0 +1,24 @@
+.services-list {
+	h2 {
+		margin-bottom: 64px;
+		@include screen-lg() {
+			max-width: 625px;
+		}
+	}
+	.service-card {
+		width: 20%;
+		padding: 20px 60px 0px 16px;
+		border-left: 1px solid $border-white;
+		&:nth-of-type(even) {
+			margin-top: 93px;
+		}
+		img {
+			width: 60%;
+		}
+		a {
+			font-weight: bold;
+			display: block;
+			padding: 20px 0 0 0;
+		}
+	}
+}

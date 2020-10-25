@@ -5,3 +5,4 @@ footer: 'patternData@02-organisms/footer/footer'
 ## Page values.
 title: Homepage
 cta_block_parallax: 'patternData@02-organisms/cta-block-parallax/cta-block-parallax'
+services_list: 'patternData@02-organisms/services-list/services-list'
