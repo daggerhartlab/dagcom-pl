@@ -14,5 +14,8 @@
 		@include screen-lg() {
 			width: 40%;
 		}
+		.btn {
+			margin-top: 20px;
+		}
 	}
 }
