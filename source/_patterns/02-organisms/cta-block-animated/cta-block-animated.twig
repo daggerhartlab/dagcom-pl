@@ -1,4 +1,4 @@
-<div class="cta-block-animated bg-white">
+<div class="cta-block-animated bg-{{ bg_color }}">
 	<div class="container">
 		<img src="{{ image }}" alt="" />
 		<div class="row animated">
@@ -9,7 +9,7 @@
 			</div>
 			<div class="col-sm-6 text-right">
 				<div class="animate-right">
-					<a class="btn btn-primary" href="{{ url }}">{{ text }}</a>
+					<a class="btn {{ button_class }}" href="{{ url }}">{{ text }}</a>
 				</div>
 			</div>
 		</div>

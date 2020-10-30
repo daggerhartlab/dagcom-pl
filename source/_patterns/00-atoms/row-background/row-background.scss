@@ -8,3 +8,13 @@
 		background-image: url(../images/dark-arrow.svg);
 	}
 }
+.bg-pink {
+	background-color: $bg-pink;
+	color: $text-navy;
+	h1, .h1, h2, .h2, h3, .h3, .btn {
+		color: $text-navy;
+	}
+	.btn:after {
+		background-image: url(../images/dark-arrow.svg);
+	}
+}

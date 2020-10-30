@@ -1,0 +1,30 @@
+<div class="blog-teasers-list row-spacer bg-navy">
+	<div class="container">
+		<div class="d-flex justify-content-between row-spacer-bottom">
+			<h2>{{ heading }}</h2>
+			<a href="{{ button_url }}" class="btn btn-primary">{{ button_text }}</a>
+		</div>
+		<div class="posts-wrapper row bg-white">
+			{% for item in items %}
+				<div class="card-wrapper col-sm-4">
+					<div class="blog-teaser-card">
+						{% if item.image %}
+							<div class="teaser-image">
+								<a href="{{ item.url }}"><img src="{{ item.image }}" alt="{{ alt }}"/></a>
+							</div>
+						{% else %}
+							<div class="default-image">
+								<a href="{{ item.url }}"><img class="default" src="{{ image_default }}" alt="{{ alt }}"/></a>
+							</div>
+						{% endif %}
+						<a class="topic d-block" href="{{ item.topic_url }}">{{ item.topic }}</a>
+						<h3><a class="d-block" href="{{ item.url }}">{{ item.title }}</a></h3>
+						<div>
+							<a class="clickable-content" href="{{ item.url }}">{{ item.content }}</a>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
