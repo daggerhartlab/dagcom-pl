@@ -1,4 +1,7 @@
 .cta-block-parallax {
+	.pre-heading {
+		padding-top: 20px;
+	}
 	.parallax-bg {
 		background-size: 0;
 		@include screen-lg() {

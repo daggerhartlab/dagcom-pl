@@ -10,10 +10,10 @@ cta_block_animated: 'patternData@02-organisms/cta-block-animated/cta-block-anima
 blog_teasers: 'patternData@02-organisms/blog-teasers-list/blog-teasers-list'
 cta_block_parallax_2:
   heading: Lorem Ipsum Dolor Sed Lectus
+  heading_level: h2
   subheading: Consectetur
   content: |
-    <p>Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.
-    Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
+    <p>Proin eget tortor risus. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
   link_url: #
   link_text: Lorem Ipsum
   background_image: '/assets/images/labby-at-work.png'

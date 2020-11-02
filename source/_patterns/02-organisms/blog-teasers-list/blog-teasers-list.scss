@@ -7,18 +7,40 @@
 	}
 	.card-wrapper {
 		position: relative;
-		&:after {
-			content: '';
-			display: block;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			right: 0px;
-			width: 1px;
-			background: rgba(240, 106, 156, 0.22);
+		&.animate-0 {
+			animation: fadein .3s linear, ease-up .5s linear;
+			animation-fill-mode: forwards;
 		}
-		&:last-of-type:after {
-			display: none;
+		&.animate-1 {
+			animation: fadein .4s linear, ease-up .9s linear;
+			animation-fill-mode: forwards;
+		}
+		&.animate-2 {
+			animation: fadein .5s linear, ease-up .5s linear;
+			animation-fill-mode: forwards;
+		}
+		&.animate-3 {
+			animation: fadein .6s linear, ease-up .9s linear;
+			animation-fill-mode: forwards;
+		}
+		&.animate-4 {
+			animation: fadein .7s linear, ease-up .5s linear;
+			animation-fill-mode: forwards;
+		}
+		@include screen-lg() {
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				right: 0px;
+				width: 1px;
+				background: rgba(240, 106, 156, 0.22);
+			}
+			&:last-of-type:after {
+				display: none;
+			}
 		}
 	}
 	.blog-teaser-card {
@@ -26,9 +48,11 @@
 		height: 100%;
 		background: $bg-white;
 		font-size: 16px;
-		transition: transform .2s ease-in-out;
-		&:hover {
-			transform: translateY(-50px);
+		@include screen-lg() {
+			transition: all .2s ease-in-out;
+			&:hover {
+				transform: translateY(-50px);
+			}
 		}
 		h3 {
 			font-size: 32px;

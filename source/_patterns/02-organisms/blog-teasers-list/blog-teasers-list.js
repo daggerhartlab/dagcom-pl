@@ -1,14 +1,14 @@
 (function($) {
 	$(document).ready(function() {
-		$('.service-card').each(function() {
+		$('.blog-teasers-list .card-wrapper').each(function() {
 			$(this).css('opacity', 0);
 		})
 		$(window).scroll( function(){
-			$('.services-list').each( function(){
+			$('.blog-teasers-list').each( function(){
 				var elemTop = $(this).offset().top + 300;
 				var viewBottom = $(window).scrollTop() + $(window).height();
 				if (elemTop < viewBottom) {
-					$('.service-card').each(function(index) {
+					$('.blog-teasers-list .card-wrapper').each(function(index) {
 						$(this).addClass('animate-' + index);
 					});
 				}
