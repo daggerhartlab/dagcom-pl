@@ -1,0 +1,15 @@
+## Template values.
+navbar: 'patternData@02-organisms/bootstrap/navbar/navbar'
+footer: 'patternData@02-organisms/footer/footer'
+
+## Page values.
+title: About
+page_title: 'patternData@02-organisms/page-title/page-title'
+content_html:
+  wrapper_classes: 'container-constrained'
+  content: |
+    <div class="text-center">
+    <h2 class="h3">Experienced website and application developers</h2>
+    <p class="lead">Daggerhart Lab is a group of thoughtful, expert developers creating websites and web applications for clients throughout the United States. Our team enjoys facing unique challenges and trying new things. We enjoy creating unexampled solutions and firmly believe in using the right tools for the job, even if that means taking a different approach than expected. We’re here to make your next build as successful as possible.</p>
+    </div>
+

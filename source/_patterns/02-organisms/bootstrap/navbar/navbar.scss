@@ -1,4 +1,7 @@
 header.header {
+	background: $body-bg;
+	position: relative;
+	z-index: 1;
 	.navbar.navbar-dark {
 		padding-top: 0;
 		.navbar-nav {
