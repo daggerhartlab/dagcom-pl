@@ -1,0 +1,10 @@
+{% extends "@templates/page.twig" %}
+
+{% block main %}
+	{# Include organisms, molecules, etc here. #}
+	{% include '@organisms/page-title/page-title.twig' with page_title %}
+	{% include '@organisms/cta-block-media/cta-block-media.twig' with cta_block_media %}
+	{% include '@organisms/text-cards-list/text-cards-list.twig' with text_cards_list %}
+	{% include '@organisms/cta-block-parallax/cta-block-parallax.twig' with cta_block_parallax %}
+	{% include '@organisms/cta-block-animated/cta-block-animated.twig' with cta_block_animated_pink %}
+{% endblock %}

@@ -4,11 +4,10 @@ footer: 'patternData@02-organisms/footer/footer'
 
 ## Page values.
 title: Homepage
-cta_block_parallax: 'patternData@02-organisms/cta-block-parallax/cta-block-parallax'
-services_list: 'patternData@02-organisms/services-list/services-list'
-cta_block_animated: 'patternData@02-organisms/cta-block-animated/cta-block-animated'
-blog_teaser_cards: 'patternData@02-organisms/blog-teaser-cards-list/blog-teaser-cards-list'
-cta_block_parallax_2:
+page_title: 'patternData@02-organisms/page-title/page-title'
+cta_block_media: 'patternData@02-organisms/cta-block-media/cta-block-media'
+text_cards_list: 'patternData@02-organisms/text-cards-list/text-cards-list'
+cta_block_parallax:
   heading: Lorem Ipsum Dolor Sed Lectus
   heading_level: h2
   subheading: Consectetur
