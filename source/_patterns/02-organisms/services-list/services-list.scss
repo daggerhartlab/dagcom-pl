@@ -12,7 +12,7 @@
 		margin-top: 40px;
 		display: none;
 		h3 {
-			text-transform: uppercase;
+			font-size: 18px;
 		}
 		&:nth-of-type(1),
 		&:nth-of-type(2) {
@@ -59,26 +59,6 @@
 			display: block;
 			padding: 20px 0 0 0;
 		}
-		&.animate-0 {
-			animation: fadein .3s linear, ease-up .5s linear;
-			animation-fill-mode: forwards;
-		}
-		&.animate-1 {
-			animation: fadein .4s linear, ease-up .9s linear;
-			animation-fill-mode: forwards;
-		}
-		&.animate-2 {
-			animation: fadein .5s linear, ease-up .5s linear;
-			animation-fill-mode: forwards;
-		}
-		&.animate-3 {
-			animation: fadein .6s linear, ease-up .9s linear;
-			animation-fill-mode: forwards;
-		}
-		&.animate-4 {
-			animation: fadein .7s linear, ease-up .5s linear;
-			animation-fill-mode: forwards;
-		}
 	}
 	.more-services {
 		margin-top: 60px;
@@ -91,20 +71,5 @@
 			background-position: right center;
 			background-repeat: no-repeat;
 		}
-	}
-}
-
-@keyframes fadein {
-	96%, 100% {
-		opacity: 1;
-	}
-}
-
-@keyframes ease-up {
-	0% {
-		transform: translate(0, 20px);
-	}
-	80% {
-		transform: translate(0, 0);
 	}
 }

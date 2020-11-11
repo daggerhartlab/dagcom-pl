@@ -1,0 +1,45 @@
+.staff-list {
+	.card-wrapper {
+		margin-top: $spacer*10;
+	}
+	.staff-name {
+		margin-top: 15px;
+	}
+	.staff-card {
+		width: 100%;
+		margin-top: 30px;
+		@include screen-sm() {
+			width: 45%;
+		}
+		@include screen-md() {
+			width: 30%;
+		}
+		@include screen-xl() {
+			width: 17%;
+		}
+		@include screen-sm() {
+			&:nth-of-type(even) {
+				margin-top: $spacer*25;
+			}
+		}
+	}
+	.open-src-links {
+		margin-top: 10px;
+		margin-bottom: 15px;
+		a {
+			display: block;
+			margin-right: 10px;
+			line-height: 0;
+			svg {
+				fill: $pink;
+				width: 20px;
+				height: 20px;
+				transition: fill .2s ease-in-out;
+			}
+			&:focus svg,
+			&:hover svg {
+				fill: #fff;
+			}
+		}
+	}
+}

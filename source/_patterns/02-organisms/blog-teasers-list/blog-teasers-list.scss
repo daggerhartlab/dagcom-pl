@@ -7,26 +7,6 @@
 	}
 	.card-wrapper {
 		position: relative;
-		&.animate-0 {
-			animation: fadein .3s linear, ease-up .5s linear;
-			animation-fill-mode: forwards;
-		}
-		&.animate-1 {
-			animation: fadein .4s linear, ease-up .9s linear;
-			animation-fill-mode: forwards;
-		}
-		&.animate-2 {
-			animation: fadein .5s linear, ease-up .5s linear;
-			animation-fill-mode: forwards;
-		}
-		&.animate-3 {
-			animation: fadein .6s linear, ease-up .9s linear;
-			animation-fill-mode: forwards;
-		}
-		&.animate-4 {
-			animation: fadein .7s linear, ease-up .5s linear;
-			animation-fill-mode: forwards;
-		}
 		@include screen-lg() {
 			&:after {
 				content: '';
