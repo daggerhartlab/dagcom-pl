@@ -35,11 +35,11 @@
 		"gulp-sass": "^4.1.0",
 		"gulp-shell": "^0.8.0",
 		"gulp-sourcemaps": "^2.6.5",
-		"gulp-uglify": "^3.0.2",
+		"gulp-uglify-es": "^2.0.0",
 		"jquery": "^3.5.1",
 		"lazysizes": "^5.2.2",
-		"postcss-load-config": "^2.1.0",
-		"patternlab-pattern-data": "github:daggerhartlab/patternlab-pattern-data"
+		"patternlab-pattern-data": "github:daggerhartlab/patternlab-pattern-data",
+		"postcss-load-config": "^2.1.0"
 	},
 	"devDependencies": {
 		"@pattern-lab/cli": "^5.10.1",
@@ -47,5 +47,10 @@
 		"@pattern-lab/engine-twig-php": "^5.10.1",
 		"@pattern-lab/starterkit-twig-demo": "^5.10.1",
 		"@pattern-lab/uikit-workshop": "^5.10.1"
-	}
+	},
+	"browserslist": [
+		"defaults",
+		"not IE 11",
+		"not IE_Mob 11"
+	]
 }

@@ -13,7 +13,7 @@ var
 	rename = require('gulp-rename'),
 	sass = require('gulp-sass'),
 	shell = require('gulp-shell'),
-	uglify = require('gulp-uglify'),
+	uglify = require('gulp-uglify-es').default,
 	autoprefixer = require('autoprefixer'),
 	sourcemaps = require('gulp-sourcemaps'),
 	postcss = require('gulp-postcss'),
