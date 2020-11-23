@@ -1,0 +1,11 @@
+{% extends "@templates/page.twig" %}
+
+{% block main %}
+	{# Include organisms, molecules, etc here. #}
+	{% include '@organisms/page-title/page-title.twig' with page_title %}
+	{% include '@organisms/content-html/content-html.twig' with content_html %}
+	{% include '@organisms/cta-block-simple/cta-block-simple.twig' with cta_block_simple %}
+	{% include '@organisms/cta-block-parallax/cta-block-parallax.twig' with cta_block_parallax %}
+	{% include '@organisms/staff-list/staff-list.twig' with staff_list %}
+	{% include '@organisms/cta-block-animated/cta-block-animated.twig' with cta_block_animated_pink %}
+{% endblock %}

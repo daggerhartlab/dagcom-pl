@@ -1,0 +1,16 @@
+// TODO: SET HEADING TO H2 if empty and also change class name to heading level
+<div class="cta-block-parallax row-spacer bg-transparent">
+	<div class="parallax-bg d-flex align-items-center" style="background-image: url('{{ background_image }}');">
+		<div class="container">
+			<div class="text-wrapper text-center text-lg-left">
+				<div class="pre-heading">{{ subheading }}</div>
+				<{{ heading_level }} class="h1">{{ heading }}</{{ heading_level }}>
+				<div class="d-lg-none">
+					<img src="{{ background_image }}" alt="{{ alt }}" />
+				</div>
+				<p>{{ content }}</p>
+				<a href="{{ link_url }}" class="btn btn-primary">{{ link_text }}</a>
+			</div>
+		</div>
+	</div>
+</div>

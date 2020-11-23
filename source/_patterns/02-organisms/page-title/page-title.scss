@@ -1,0 +1,28 @@
+.page-title {
+	position: relative;
+	min-height: 300px;
+	margin-top: -90px;
+	overflow: hidden;
+	h1 {
+		margin-bottom: 0;
+	}
+	.title-content {
+		margin-top: auto;
+	}
+	.bg {
+		position: absolute;
+		top: 60px;
+		bottom: 0;
+		width: 20vw;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.right-bg {
+		right: 0;
+		background-position: top right;
+	}
+	.left-bg {
+		left: 0;
+		background-position: top left;
+	}
+}

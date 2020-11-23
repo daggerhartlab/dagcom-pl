@@ -2,28 +2,28 @@
 /* Mixins */
 /* ***************** */
 @mixin screen-sm() {
-  // min-width: 640px
+  // min-width: 576px
   @media screen and (min-width: map-get($grid-breakpoints, "sm")) {
     @content;
   }
 }
 
 @mixin screen-md() {
-  // min-width: 700px
+  // min-width: 768px
   @media screen and (min-width: map-get($grid-breakpoints, "md")) {
     @content;
   }
 }
 
 @mixin screen-lg() {
-  // min-width: 1024px
+  // min-width: 992px
   @media screen and (min-width: map-get($grid-breakpoints, "lg")) {
     @content;
   }
 }
 
 @mixin screen-xl() {
-  // min-width: 1280px
+  // min-width: 1200px
   @media screen and (min-width: map-get($grid-breakpoints, "xl")) {
     @content;
   }

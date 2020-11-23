@@ -1,3 +1,35 @@
 // Custom Variables
-//
 
+// Color names
+
+$pink: #ed4380;
+$pink-light: #f06a9c;
+$green-neon: #2df9af;
+$green-neon-dark: #02c87f;
+$navy: #070c21;
+$navy-alt: #071341;
+$white: #fff;
+$white-alt: #f8f8f9;
+
+// Functional
+$body-bg: $navy;
+$text-navy: $navy;
+$body-color: $white-alt;
+$heading-white: $white;
+$border-white: $white;
+$bg-white: $white;
+$bg-green: $green-neon;
+$text-green: $green-neon;
+$text-green-dark: $green-neon-dark;
+$bullet-green: $green-neon; // list item bullets
+$link-hover: $green-neon-dark;
+$headings-green: $green-neon;
+$bg-pink: $pink-light;
+$link-color: $pink-light;
+$text-pink: $pink;
+
+
+$headings-font-family: 'Play', sans-serif;
+$font-family-base: 'PT Sans', sans-serif;
+
+$spacer: 4px;

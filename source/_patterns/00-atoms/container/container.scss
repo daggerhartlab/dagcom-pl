@@ -1,0 +1,16 @@
+.container {
+	width: 90%;
+	max-width: 1600px;
+	@include screen-lg() {
+		width: 85%;
+	}
+}
+.container-wide {
+	margin: 0 auto;
+	width: 98%;
+}
+.container-constrained {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 800px;
+}

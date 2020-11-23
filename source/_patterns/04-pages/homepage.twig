@@ -1,0 +1,11 @@
+{% extends "@templates/page.twig" %}
+
+{% block main %}
+	{# Include organisms, molecules, etc here. #}
+	{% include '@organisms/cta-block-parallax/cta-block-parallax.twig' with cta_block_parallax %}
+	{% include '@organisms/services-list/services-list.twig' with services_list %}
+	{% include '@organisms/cta-block-animated/cta-block-animated.twig' with cta_block_animated %}
+	{% include '@organisms/cta-block-parallax/cta-block-parallax.twig' with cta_block_parallax_2 %}
+	{% include '@organisms/blog-teaser-cards-list/blog-teaser-cards-list.twig' with blog_teaser_cards %}
+	{% include '@organisms/cta-block-animated/cta-block-animated.twig' with cta_block_animated_pink %}
+{% endblock %}

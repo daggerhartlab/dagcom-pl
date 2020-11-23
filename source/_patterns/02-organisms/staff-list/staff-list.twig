@@ -1,0 +1,25 @@
+<div class="staff-list row-spacer">
+	<div class="container">
+		<div class="pre-heading">{{ subheading }}</div>
+		<h2>{{ heading }}</h2>
+		<div class="card-wrapper d-sm-flex flex-wrap justify-content-between">
+			{% for item in items %}
+			<div class="staff-card">
+				<img src="{{ item.image }}" />
+				<div class="staff-name text-uppercase">{{ item.title }}</div>
+				<div class="open-src-links d-flex">
+					<a href="{{ item.drupal_link }}">
+						<span class="sr-only">Drupal icon</span>
+						{{ source('global/images/drupal.svg') }}
+					</a>
+					<a href="{{ item.github_link }}">
+						<span class="sr-only">Github icon</span>
+						{{ source('global/images/github.svg') }}
+					</a>
+				</div>
+				<div class="staff-bio">{{ item.content }}</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,21 @@
+<div class="text-cards-list row-spacer bg-green">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="pre-heading">{{ subheading }}</div>
+				<h2 class="font-weight-bold">{{ heading }}</h2>
+				<div>{{ content }}</div>
+			</div>
+		</div>
+		<div class="row row-eq-height card-wrapper">
+		 	{% for item in items %}
+				<div class="col col-sm-4">
+					<div class="text-card">
+						<div class="background"></div>
+						{{ item.content }}
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

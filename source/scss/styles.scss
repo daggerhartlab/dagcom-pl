@@ -3,15 +3,51 @@
 @import "mixins";
 
 @import "../_patterns/00-atoms/alert/alert";
+@import "../_patterns/00-atoms/animations/animations";
 @import "../_patterns/00-atoms/buttons/button";
 @import "../_patterns/00-atoms/container/container";
+@import "../_patterns/00-atoms/forms/forms";
 @import "../_patterns/00-atoms/headings/headings";
+@import "../_patterns/00-atoms/lists/lists";
+@import "../_patterns/00-atoms/row-spacer/row-spacer";
+@import "../_patterns/00-atoms/row-background/row-background";
 @import "../_patterns/00-atoms/spinner-pulse/spinner-pulse";
 
 @import "../_patterns/01-molecules/menu/menu";
 
+@import "../_patterns/02-organisms/blog-teasers-list/blog-teasers-list";
+@import "../_patterns/02-organisms/bootstrap/navbar/navbar";
 @import "../_patterns/02-organisms/content-html/content-html";
+@import "../_patterns/02-organisms/cta-block-animated/cta-block-animated";
+@import "../_patterns/02-organisms/cta-block-media/cta-block-media";
+@import "../_patterns/02-organisms/cta-block-parallax/cta-block-parallax";
+@import "../_patterns/02-organisms/cta-block-simple/cta-block-simple";
 @import "../_patterns/02-organisms/footer/footer";
 @import "../_patterns/02-organisms/hero-simple/hero-simple";
+@import "../_patterns/02-organisms/page-title/page-title";
+@import "../_patterns/02-organisms/services-list/services-list";
+@import "../_patterns/02-organisms/staff-list/staff-list";
+@import "../_patterns/02-organisms/text-cards-list/text-cards-list";
 
-@import "../_patterns/02-organisms/bootstrap/navbar/navbar";
+// For pattern lab only - override the default styles
+.pl-c-main {
+	.pl-c-category__title,
+	.pl-c-category__title a,
+	.pl-c-pattern__header,
+	.pl-c-pattern__header a {
+		color: $white !important;
+	}
+	.pl-c-pattern__title-link:focus,
+	.pl-c-pattern__title-link:hover {
+		color: darken($white, 20%) !important;
+	}
+	#atoms-button-light {
+		background: $pink;
+		padding-bottom: 20px;
+	}
+	#atoms-button-secondary {
+		background: $white;
+		padding-bottom: 20px;
+	}
+}
+

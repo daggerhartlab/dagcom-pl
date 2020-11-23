@@ -1,0 +1,9 @@
+.row-spacer {
+	padding: ($spacer*20) 0;
+	&.bg-transparent {
+		padding: 0
+	}
+}
+.row-spacer-bottom {
+	padding-bottom: 80px;
+}

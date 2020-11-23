@@ -1,3 +1,20 @@
+body {
+	font-size: $font-size-base;
+}
+a:hover {
+	text-decoration: none;
+	color: $link_hover;
+}
+p {
+	line-height: 28px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
 .content-html {
 
+}
+p.lead {
+	font-size: 20px;
 }

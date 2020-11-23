@@ -1,0 +1,27 @@
+## Template values.
+navbar: 'patternData@02-organisms/bootstrap/navbar/navbar'
+footer: 'patternData@02-organisms/footer/footer'
+
+## Page values.
+title: Homepage
+cta_block_parallax: 'patternData@02-organisms/cta-block-parallax/cta-block-parallax'
+services_list: 'patternData@02-organisms/services-list/services-list'
+cta_block_animated: 'patternData@02-organisms/cta-block-animated/cta-block-animated'
+blog_teaser_cards: 'patternData@02-organisms/blog-teaser-cards-list/blog-teaser-cards-list'
+cta_block_parallax_2:
+  heading: Lorem Ipsum Dolor Sed Lectus
+  heading_level: h2
+  subheading: Consectetur
+  content: |
+    <p>Proin eget tortor risus. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
+  link_url: #
+  link_text: Lorem Ipsum
+  background_image: '/assets/images/labby-at-work.png'
+  alt: image alt text
+cta_block_animated_pink:
+  image: /assets/images/zap-green.png
+  content: Praesent sapien massa pellentesque, <strong>egestas non nisi!</strong>
+  text: Lorem Ipsum
+  url: '#'
+  bg_color: pink
+  button_class: btn-light
