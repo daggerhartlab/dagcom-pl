@@ -26,7 +26,7 @@ cta_block_parallax:
     </ul>
   link_url: #
   link_text: lorem ipsum
-  background_image: '/assets/images/service-selection.png'
+  background_image: '/assets/images/art/labby-services.png'
   alt: image alt text
 staff_list: 'patternData@02-organisms/staff-list/staff-list'
 cta_block_animated_pink:

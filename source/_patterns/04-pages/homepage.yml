@@ -16,7 +16,7 @@ cta_block_parallax_2:
     <p>Proin eget tortor risus. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
   link_url: #
   link_text: Lorem Ipsum
-  background_image: '/assets/images/labby-at-work.png'
+  background_image: '/assets/images/art/labby-at-work.png'
   alt: image alt text
 cta_block_animated_pink:
   image: /assets/images/zap-green.png

@@ -7,31 +7,31 @@ items:
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: #
     text: CTA Link Text
-    image: /assets/images/wp.png
+    image: /assets/images/art/raygun-wordpress.png
     alt: ''
   - title: Front End Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: #
     text: CTA Link Text
-    image: /assets/images/fe.png
+    image: /assets/images/art/raygun-frontend.png
     alt: ''
   - title: Drupal Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: #
     text: CTA Link Text
-    image: /assets/images/d8.png
+    image: /assets/images/art/raygun-drupal.png
     alt: ''
   - title: Back End Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: #
     text: CTA Link Text
-    image: /assets/images/be.png
+    image: /assets/images/art/raygun-backend.png
     alt: ''
   - title: Custom Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: #
     text: CTA Link Text
-    image: /assets/images/cu.png
+    image: /assets/images/art/raygun-custom-development.png
     alt: ''
 
 

@@ -14,7 +14,7 @@
 	white-space: nowrap;
 	&:after {
 		content: '';
-		background-image: url(../images/light-arrow.svg);
+		background-image: url(../images/icon/arrow-light.svg);
 		background-repeat: no-repeat;
 		background-position: center right;
 		height: 12px;
@@ -32,26 +32,26 @@
 		background-position: 100% 0;
 	}
 	&.btn-primary {
-		background-image: url('../images/pink-bubble.png');
+		background-image: url('../images/icon/bubble-pink.png');
 		&.dark-text {
 			color: $text-navy;
 			&:after {
-				background-image: url(../images/dark-arrow.svg);
+				background-image: url('../images/icon/arrow-dark.svg');
 			}
 		}
 	}
 	&.btn-secondary {
-		background-image: url('../images/green-bubble.png');
+		background-image: url('../images/icon/bubble-green.png');
 		color: $text-navy;
 		&:after {
-			background-image: url(../images/dark-arrow.svg);
+			background-image: url('../images/icon/arrow-dark.svg');
 		}
 	}
 	&.btn-light {
-		background-image: url('../images/white-bubble.png');
+		background-image: url('../images/icon/bubble-white.png');
 		color: $text-navy;
 		&:after {
-			background-image: url(../images/dark-arrow.svg);
+			background-image: url('../images/icon/arrow-dark.svg');
 		}
 	}
 }

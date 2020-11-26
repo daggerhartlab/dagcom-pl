@@ -1,6 +1,6 @@
 site_url: '#'
 site_name: 'Tanager'
-logo_src: '/assets/images/logo.png'
+logo_src: '/assets/images/logo/daggerhartlab-logo.png'
 menu:
   -
     title: 'Link 1'

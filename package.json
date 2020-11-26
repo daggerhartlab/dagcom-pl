@@ -38,7 +38,7 @@
 		"gulp-uglify-es": "^2.0.0",
 		"jquery": "^3.5.1",
 		"lazysizes": "^5.2.2",
-		"patternlab-pattern-data": "github:daggerhartlab/patternlab-pattern-data",
+		"patternlab-pattern-data": "^1.0.0",
 		"postcss-load-config": "^2.1.0"
 	},
 	"devDependencies": {

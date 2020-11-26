@@ -3,31 +3,31 @@ subheading: preheading
 items:
   - title: Jonathan Daggerhart
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/jonathan-cards.png
+    image: /assets/images/profile/jonathan-cards.png
     alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Justin Rhodes
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/justin-camps.png
+    image: /assets/images/profile/justin-camps.png
     alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Michelle Darling
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/michelle-rocks.png
+    image: /assets/images/profile/michelle-rocks.png
     alt: ''
     drupal_link: '#'
     github_link: '#'
   - title: Kristen Littlefield
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/kristen-juggles.png
+    image: /assets/images/profile/kristen-juggles.png
     alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Chris Runo
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/chris-jammin.png
+    image: /assets/images/profile/chris-jammin.png
     alt: ''
     github_link: '#'
     drupal_link: '#'
