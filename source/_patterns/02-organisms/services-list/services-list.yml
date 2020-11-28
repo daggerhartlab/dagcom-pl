@@ -1,7 +1,7 @@
 heading: Vivamus magna justo lacinia eget consectetur sed
 subheading: Dictum & porta
-button_text: More Services
-button_link: '#'
+link_text: More Services
+link_url: '#'
 items:
   - title: Wordpress Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
