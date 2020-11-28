@@ -1,15 +1,15 @@
 <div class="cta-block-animated bg-{{ bg_color }}">
 	<div class="container">
-		<img src="{{ image }}" alt="" />
+		<img src="{{ image_src }}" alt="{{ image_alt }}" />
 		<div class="row animated">
 			<div class="col-lg-6 text-center text-sm-left">
 				<div class="animate-left">
-					<h2>{{ content }}</h2>
+					<h2>{{ heading }}</h2>
 				</div>
 			</div>
 			<div class="col-lg-6 text-center text-sm-right">
 				<div class="animate-right">
-					<a class="btn {{ button_class }}" href="{{ url }}">{{ text }}</a>
+					<a class="btn {{ button_class }}" href="{{ link_url }}">{{ link_text }}</a>
 				</div>
 			</div>
 		</div>

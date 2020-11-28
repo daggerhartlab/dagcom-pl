@@ -26,13 +26,13 @@ cta_block_parallax:
     </ul>
   link_url: #
   link_text: lorem ipsum
-  background_image: '/assets/images/art/labby-services.png'
-  alt: image alt text
+  image_src: '/assets/images/art/labby-services.png'
+  image_alt: image alt text
 staff_list: 'patternData@02-organisms/staff-list/staff-list'
 cta_block_animated_pink:
-  image: /assets/images/zap-green.png
-  content: Praesent sapien pellesque
-  text: Lorem Ipsum
-  url: '#'
+  image_src: /assets/images/art/zap-green.png
+  heading: Praesent sapien pellesque
+  link_text: Lorem Ipsum
+  link_url: '#'
   bg_color: pink
   button_class: btn-light

@@ -1,7 +1,7 @@
 heading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 subheading: Preheading
 content: Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-text: Lorem Ipsum
-url: #
+link_text: Lorem Ipsum
+link_url: #
 bg_color: white
 button_class: btn-primary

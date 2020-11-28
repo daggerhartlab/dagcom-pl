@@ -15,12 +15,12 @@ cta_block_parallax:
     <p>Proin eget tortor risus. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
   link_url: #
   link_text: Lorem Ipsum
-  background_image: '/assets/images/art/labby-at-work.png'
-  alt: image alt text
+  image_src: '/assets/images/art/labby-at-work.png'
+  image_alt: image alt text
 cta_block_animated_pink:
-  image: /assets/images/zap-green.png
-  content: Praesent sapien massa pellentesque, <strong>egestas non nisi!</strong>
-  text: Lorem Ipsum
-  url: '#'
+  image_src: /assets/images/art/zap-green.png
+  heading: Praesent sapien massa pellentesque, <strong>egestas non nisi!</strong>
+  link_text: Lorem Ipsum
+  link_url: '#'
   bg_color: pink
   button_class: btn-light

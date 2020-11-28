@@ -1,6 +1,7 @@
-image: /assets/images/zap-green.png
-content: Praesent sapien massa pellentesque, <strong>egestas non nisi!</strong>
-text: Lorem Ipsum
-url: #
+image_src: /assets/images/art/zap-green.png
+image_alt: green zap
+heading: Praesent sapien massa pellentesque, <strong>egestas non nisi!</strong>
+link_text: Lorem Ipsum
+link_url: #
 bg_color: white
 button_class: btn-primary
