@@ -1,6 +1,6 @@
 image_src: /assets/images/art/zap-green.png
 image_alt: green zap
-content: Praesent sapien massa pellentesque, <strong>egestas non nisi!</strong>
+heading: Praesent sapien massa pellentesque, <strong>egestas non nisi!</strong>
 link_text: Lorem Ipsum
 link_url: '#'
 bg_color: pink
