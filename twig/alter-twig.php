@@ -11,6 +11,7 @@ function addCustomExtension(\Twig_Environment &$env, $config) {
 
   $env->addFunction(new \Twig_SimpleFunction('create_attribute', '\Tanager\PatternLibrary\Attribute::create'));
   $env->addFilter(new \Twig_SimpleFilter('t', '\Tanager\PatternLibrary\Drupal::t', ['is_safe' => ['html']]));
+  $env->addGlobal('pattern_assets_dir', 'global');
 
   /*
    * Reverse a string

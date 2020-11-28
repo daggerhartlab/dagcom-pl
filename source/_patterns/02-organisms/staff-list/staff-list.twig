@@ -10,11 +10,11 @@
 				<div class="open-src-links d-flex">
 					<a href="{{ item.drupal_link }}">
 						<span class="sr-only">Drupal icon</span>
-						{{ source('global/images/icon/brand-drupal.svg') }}
+						{{ source(pattern_assets_dir ~ '/images/icon/brand-drupal.svg') }}
 					</a>
 					<a href="{{ item.github_link }}">
 						<span class="sr-only">Github icon</span>
-						{{ source('global/images/icon/brand-github.svg') }}
+						{{ source(pattern_assets_dir ~ '/images/icon/brand-github.svg') }}
 					</a>
 				</div>
 				<div class="staff-bio">{{ item.content }}</div>
