@@ -4,3 +4,12 @@ content: Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacin
 button_class: btn-primary
 link_text: CTA HERE
 link_url: '#'
+images:
+  -
+    title: WordPress
+    image_src: /assets/images/examples/site-1.png
+    image_alt: wordpress
+  -
+    title: Drupal
+    image_src: /assets/images/examples/site-2.png
+    image_alt: drupal
