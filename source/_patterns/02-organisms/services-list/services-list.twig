@@ -5,10 +5,10 @@
 		<div class="cards-wrapper d-sm-flex">
 			{% for item in items %}
 				<div class="service-card {{ class }}">
-					<img src="{{ item.image }}"  alt=""/>
+					<img src="{{ item.image_src }}"  alt="{{ item.image_alt }}"/>
 					<h3 class="text-uppercase">{{ item.title }}</h3>
 					{{ item.content }}
-					<a href="{{ item.url }}">{{ item.text }}</a>
+					<a href="{{ item.link_url }}">{{ item.link_text }}</a>
 				</div>
 			{% endfor %}
 		</div>

@@ -5,33 +5,33 @@ button_link: '#'
 items:
   - title: Wordpress Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
-    url: #
-    text: CTA Link Text
-    image: /assets/images/art/raygun-wordpress.png
-    alt: ''
+    link_url: #
+    link_text: CTA Link Text
+    image_src: /assets/images/art/raygun-wordpress.png
+    image_alt: ''
   - title: Front End Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
-    url: #
-    text: CTA Link Text
-    image: /assets/images/art/raygun-frontend.png
-    alt: ''
+    link_url: #
+    link_text: CTA Link Text
+    image_src: /assets/images/art/raygun-frontend.png
+    image_alt: ''
   - title: Drupal Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
-    url: #
-    text: CTA Link Text
-    image: /assets/images/art/raygun-drupal.png
-    alt: ''
+    link_url: #
+    link_text: CTA Link Text
+    image_src: /assets/images/art/raygun-drupal.png
+    image_alt: ''
   - title: Back End Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
-    url: #
-    text: CTA Link Text
-    image: /assets/images/art/raygun-backend.png
-    alt: ''
+    link_url: #
+    link_text: CTA Link Text
+    image_src: /assets/images/art/raygun-backend.png
+    image_alt: ''
   - title: Custom Development
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
-    url: #
-    text: CTA Link Text
-    image: /assets/images/art/raygun-custom-development.png
-    alt: ''
+    link_url: #
+    link_text: CTA Link Text
+    image_src: /assets/images/art/raygun-custom-development.png
+    image_alt: ''
 
 
