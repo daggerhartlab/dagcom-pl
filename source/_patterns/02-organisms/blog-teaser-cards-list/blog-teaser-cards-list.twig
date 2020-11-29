@@ -2,22 +2,26 @@
 	<div class="container">
 		<div class="d-block d-lg-flex justify-content-between row-spacer-bottom text-center text-lg-left">
 			<h2>{{ heading }}</h2>
-			<a href="{{ link_url }}" class="btn btn-primary">{{ link_text }}</a>
+			{% if link_url %}
+				<a href="{{ link_url }}" class="btn btn-primary">{{ link_text }}</a>
+			{% endif %}
 		</div>
 		<div class="posts-wrapper row bg-white">
 			{% for item in items %}
 				<div class="card-wrapper col-sm-4">
 					<div class="blog-teaser-card">
-						{% if item.image %}
+						{% if item.image_src %}
 							<div class="teaser-image">
 								<a href="{{ item.url }}"><img src="{{ item.image_src }}" alt="{{ item.image_alt }}"/></a>
 							</div>
-						{% else %}
+						{% elseif image_default_src %}
 							<div class="default-image">
 								<a href="{{ item.url }}"><img class="default" src="{{ image_default_src }}" alt="{{ image_default_alt }}"/></a>
 							</div>
 						{% endif %}
-						<a class="topic d-block" href="{{ item.topic_url }}">{{ item.topic }}</a>
+						{% if item.topic_url %}
+							<a class="topic d-block" href="{{ item.topic_url }}">{{ item.topic }}</a>
+						{% endif %}
 						<h3><a class="d-block" href="{{ item.url }}">{{ item.title }}</a></h3>
 						<div>
 							<a class="clickable-content" href="{{ item.url }}">{{ item.content }}</a>
