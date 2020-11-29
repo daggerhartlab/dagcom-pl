@@ -3,31 +3,31 @@ subheading: preheading
 items:
   - title: Jonathan Daggerhart
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/profile/jonathan-cards.png
-    alt: ''
+    image_src: /assets/images/profile/jonathan-cards.png
+    image_alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Justin Rhodes
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/profile/justin-camps.png
-    alt: ''
+    image_src: /assets/images/profile/justin-camps.png
+    image_alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Michelle Darling
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/profile/michelle-rocks.png
-    alt: ''
+    image_src: /assets/images/profile/michelle-rocks.png
+    image_alt: ''
     drupal_link: '#'
     github_link: '#'
   - title: Kristen Littlefield
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/profile/kristen-juggles.png
-    alt: ''
+    image_src: /assets/images/profile/kristen-juggles.png
+    image_alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Chris Runo
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-    image: /assets/images/profile/chris-jammin.png
-    alt: ''
+    image_src: /assets/images/profile/chris-jammin.png
+    image_alt: ''
     github_link: '#'
     drupal_link: '#'
