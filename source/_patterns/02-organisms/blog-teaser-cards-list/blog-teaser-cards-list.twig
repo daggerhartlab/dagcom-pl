@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="d-block d-lg-flex justify-content-between row-spacer-bottom text-center text-lg-left">
 			<h2>{{ heading }}</h2>
-			<a href="{{ button_url }}" class="btn btn-primary">{{ button_text }}</a>
+			<a href="{{ link_url }}" class="btn btn-primary">{{ link_text }}</a>
 		</div>
 		<div class="posts-wrapper row bg-white">
 			{% for item in items %}
@@ -10,11 +10,11 @@
 					<div class="blog-teaser-card">
 						{% if item.image %}
 							<div class="teaser-image">
-								<a href="{{ item.url }}"><img src="{{ item.image }}" alt="{{ alt }}"/></a>
+								<a href="{{ item.url }}"><img src="{{ item.image_src }}" alt="{{ item.image_alt }}"/></a>
 							</div>
 						{% else %}
 							<div class="default-image">
-								<a href="{{ item.url }}"><img class="default" src="{{ image_default }}" alt="{{ alt }}"/></a>
+								<a href="{{ item.url }}"><img class="default" src="{{ image_default_src }}" alt="{{ image_default_alt }}"/></a>
 							</div>
 						{% endif %}
 						<a class="topic d-block" href="{{ item.topic_url }}">{{ item.topic }}</a>

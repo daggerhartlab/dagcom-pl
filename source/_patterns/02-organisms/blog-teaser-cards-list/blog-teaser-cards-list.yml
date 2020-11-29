@@ -1,26 +1,27 @@
 heading: Curabitur non nulla sit amet
-button_text: Lorem Ipsum
-button_url: '#'
-image_default: '/assets/images/examples/post-default.png'
+link_text: Lorem Ipsum
+link_url: '#'
+image_default_src: '/assets/images/examples/post-default.png'
+image_default_alt: ''
 items:
   - title: Blog Post Most Recent
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: '#'
     topic: topic
     topic_url:
-    image: /assets/images/examples/post-1.jpg
-    alt: ''
+    image_src: /assets/images/examples/post-1.jpg
+    image_alt: ''
   - title: 'Blog Post No Image'
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: '#'
     topic: topic
     topic_url:
-    image:
-    alt: ''
+    image_src: null
+    image_alt: ''
   - title: 'Blog Post Last'
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: '#'
     topic: topic
     topic_url:
-    image: /assets/images/examples/post-3.jpg
-    alt: ''
+    image_src: /assets/images/examples/post-3.jpg
+    image_alt: ''
