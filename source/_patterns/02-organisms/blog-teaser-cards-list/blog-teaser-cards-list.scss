@@ -1,4 +1,4 @@
-.blog-teasers-list {
+.blog-teaser-cards-list {
 	h2 {
 		color: $heading-white;
 	}
@@ -14,7 +14,7 @@
 				position: absolute;
 				top: 0;
 				bottom: 0;
-				right: 0px;
+				right: 0;
 				width: 1px;
 				background: rgba(240, 106, 156, 0.22);
 			}
@@ -22,17 +22,26 @@
 				display: none;
 			}
 		}
+		&:last-of-type .blog-teaser-card {
+			border: none;
+		}
 	}
 	.blog-teaser-card {
-		padding: 42px;
 		height: 100%;
 		background: $bg-white;
 		font-size: 16px;
+		padding: 30px 20px;
+		border-bottom: 1px solid #dedede;
 		@include screen-lg() {
+			padding: 15px;
 			transition: all .2s ease-in-out;
+			border: none;
 			&:hover {
 				transform: translateY(-50px);
 			}
+		}
+		@include screen-xl() {
+			padding: 40px;
 		}
 		h3 {
 			font-size: 32px;

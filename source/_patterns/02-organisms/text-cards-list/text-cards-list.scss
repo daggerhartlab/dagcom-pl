@@ -10,9 +10,13 @@
 		color: $body-color;
 		padding: 40px 20px 20px 20px;
 		position: relative;
-		height: 100%;
+		margin-bottom: 20px;
 		@include screen-md() {
 			padding: 60px 40px 40px 40px;
+		}
+		@include screen-lg() {
+			height: 100%;
+			margin-bottom: 0;
 		}
 		h1, .h1, h2, .h2, h3, .h3, .btn, .pre-heading {
 			color: $body-color;
