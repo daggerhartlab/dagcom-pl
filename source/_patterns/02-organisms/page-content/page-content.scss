@@ -1,0 +1,35 @@
+.page-wrapper {
+	position: relative;
+	&.has-image {
+		.page-content {
+			@include screen-md() {
+				padding-top: 15vh;
+				margin-top: -15vh;
+			}
+		}
+	}
+	.page-content {
+		padding: 40px;
+		background: $bg-white;
+		color: $text-grey;
+		border-top-right-radius: 50px;
+		h1, h2, h3, h4 {
+			color: $text-navy;
+			font-weight: bold;
+		}
+		h2 {
+			font-size: 40px;
+		}
+		h3 {
+			font-size: 28px;
+		}
+	}
+	.image-container {
+		width: 90%;
+		margin-bottom: 40px;
+		height: 30vh;
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
