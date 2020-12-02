@@ -31,5 +31,8 @@
 		position: relative;
 		background-repeat: no-repeat;
 		background-position: center;
+		@include screen-md() {
+			width: 80%;
+		}
 	}
 }
