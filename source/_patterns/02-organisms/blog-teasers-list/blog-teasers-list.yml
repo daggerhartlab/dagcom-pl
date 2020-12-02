@@ -1,6 +1,3 @@
-heading: Curabitur non nulla sit amet
-button_text: Lorem Ipsum
-button_url: '#'
 image_default: '/assets/images/examples/post-default.png'
 items:
   - title: Blog Post Most Recent
