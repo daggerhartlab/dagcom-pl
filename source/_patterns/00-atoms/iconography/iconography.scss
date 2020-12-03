@@ -29,6 +29,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow-right-circle:before {
+	content: "\e90c";
+}
+.icon-arrow-left-circle:before {
+	content: "\e90b";
+}
 .icon-linkedin:before {
 	content: "\e909";
 }
@@ -40,6 +46,9 @@
 }
 .icon-drupal:before {
 	content: "\e900";
+}
+.icon-search:before {
+	content: "\e90a";
 }
 .icon-youtube:before {
 	content: "\e907";
