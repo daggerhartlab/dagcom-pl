@@ -4,4 +4,3 @@ $.fn.isInViewport = function() {
 	var viewportBottom = viewportTop + $(window).height();
 	return elementTop < viewportBottom;
 };
-

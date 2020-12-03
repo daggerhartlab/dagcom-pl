@@ -10,10 +10,13 @@ $navy: #070c21;
 $navy-alt: #071341;
 $white: #fff;
 $white-alt: #f8f8f9;
+$grey: #aaa;
+$grey-dark: rgba(7, 13, 33, 0.7);
 
 // Functional
 $body-bg: $navy;
 $text-navy: $navy;
+$text-grey: $grey-dark;
 $body-color: $white-alt;
 $heading-white: $white;
 $border-white: $white;
@@ -27,6 +30,7 @@ $headings-green: $green-neon;
 $bg-pink: $pink-light;
 $link-color: $pink-light;
 $text-pink: $pink;
+$icon-grey: $grey;
 
 
 $headings-font-family: 'Play', sans-serif;
