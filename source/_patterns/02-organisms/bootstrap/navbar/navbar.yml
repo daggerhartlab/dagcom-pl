@@ -34,3 +34,24 @@ menu:
         title: 'Child Link 2 - 2'
         link: '#'
         target: ''
+social_menu:
+  -
+    title: 'Drupal'
+    link: '#'
+    icon: drupal
+    target: '_blank'
+  -
+    title: 'Github'
+    link: '#'
+    icon: github
+    target: '_blank'
+  -
+    title: 'Wordpress'
+    link: '#'
+    icon: wordpress
+    target: '_blank'
+  -
+    title: 'Twitter'
+    link: '#'
+    icon: twitter
+    target: '_blank'
