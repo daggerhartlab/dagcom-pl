@@ -29,5 +29,14 @@
 				</div>
 			{% endfor %}
 		</div>
+		{% if pages %}
+			<ul class="pager bg-white m-0 text-center inline-list">
+				<span class="icon-arrow-left-circle"><span class="sr-only">Previous</span></span>
+				{% for item in pages %}
+					<li><a class="{{ item.active ? 'active' : "" }}" href="{{ item.url }}">{{ item.text }}</a></li>
+				{% endfor %}
+				<span class="icon-arrow-right-circle"><span class="sr-only">Next</span></span>
+			</ul>
+		{% endif %}
 	</div>
 </div>
