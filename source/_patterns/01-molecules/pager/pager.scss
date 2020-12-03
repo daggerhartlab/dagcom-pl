@@ -1,0 +1,9 @@
+.pager {
+	padding: 20px 15px;
+	li {
+		padding: 0 3px;
+		a.active {
+			color: $text-grey;
+		}
+	}
+}

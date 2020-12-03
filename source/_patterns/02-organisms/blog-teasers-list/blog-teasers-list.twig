@@ -1,12 +1,6 @@
 <div class="blog-teasers-list row-spacer bg-navy">
 	<div class="container-constrained">
-		<div class="search-form-wrapper text-center">
-			<form class="search-form d-flex justify-content-between align-items-center white-bg text-left">
-				<label for="keyword" class="sr-only">Enter Search Term</label>
-				<input placeholder="Search Blogs" id="keyword" name="keyword" type="text" />
-				<input type="submit" >
-			</form>
-		</div>
+		{% include '@molecules/search-form/search-form.twig' with search %}
 		<div class="posts-wrapper">
 			{% for item in items %}
 				<div class="blog-teaser bg-white d-md-flex">
@@ -29,14 +23,6 @@
 				</div>
 			{% endfor %}
 		</div>
-		{% if pages %}
-			<ul class="pager bg-white m-0 text-center inline-list">
-				<span class="icon-arrow-left-circle"><span class="sr-only">Previous</span></span>
-				{% for item in pages %}
-					<li><a class="{{ item.active ? 'active' : "" }}" href="{{ item.url }}">{{ item.text }}</a></li>
-				{% endfor %}
-				<span class="icon-arrow-right-circle"><span class="sr-only">Next</span></span>
-			</ul>
-		{% endif %}
+		{% include '@molecules/pager/pager.twig' with pager %}
 	</div>
 </div>

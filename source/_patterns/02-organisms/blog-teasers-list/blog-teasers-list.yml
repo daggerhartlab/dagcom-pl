@@ -21,15 +21,19 @@ items:
     topic_url:
     image: /assets/images/examples/post-3.jpg
     alt: ''
-pages:
-  - text: '1'
-    url: '#'
-    active: true
-  - text: '2'
-    url: '#'
-    active: false
-  - text: '3'
-    url: '#'
-    active: false
-  - text: '4'
-    url: '#'
+pager:
+  wrapper_classes: bg-white
+  pages:
+    - text: '1'
+      url: '#'
+      active: true
+    - text: '2'
+      url: '#'
+      active: false
+    - text: '3'
+      url: '#'
+      active: false
+    - text: '4'
+      url: '#'
+search:
+  wrapper_classes: row-half-spacer-bottom
