@@ -1,0 +1,29 @@
+input_fields:
+  - label: Name
+    id: name
+    type: text
+    placeholder: Full Name
+    required: true
+  - label: Email
+    id: email
+    type: text
+    placeholder: Email Address
+    required: true
+  - label: Message
+    id: message
+    type: textarea
+    placeholder: How can we help you?
+    required: false
+submit:
+  action: ''
+  text: 'Submit Form'
+helper_text: '*Indicates a required form field'
+success:
+  image_src: '/assets/images/art/labby-support.png'
+  title: 'Thank you for reaching out!'
+  content: "A Daggerhart Lab team member is probably getting into something a little bit crazy right now, but we promise we'll get back to you as soon as we can in regards to your inquiry."
+error:
+  image_src: '/assets/images/art/zap-green.png'
+  title: 'Uh-oh! Looks like you missed something we require to assist you.'
+  content: 'Please check to make sure all of the fields are properly filled out, so we have all of the ingredients we need to better assist you with your project.'
+
