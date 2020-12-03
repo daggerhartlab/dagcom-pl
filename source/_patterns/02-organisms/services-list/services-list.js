@@ -1,18 +1,16 @@
 (function($) {
 	$(document).ready(function() {
-		$('.service-card').each(function() {
-			$(this).css('opacity', 0);
-		})
-		$(window).scroll( function(){
-			$('.services-list').each( function(){
-				var elemTop = $(this).offset().top + 300;
-				var viewBottom = $(window).scrollTop() + $(window).height();
-				if (elemTop < viewBottom) {
-					$('.service-card').each(function(index) {
-						$(this).addClass('animate-' + index);
-					});
-				}
-			});
+		if (!($('.services-list .card-wrapper').isInViewport())) {
+			$('.services-list .service-card').css('opacity',0);
+		}
+	});
+	$(window).scroll( function(){
+		$('.services-list').each( function(){
+			if ($(this).isInViewport()) {
+				$('.services-list .service-card').each(function(index) {
+					$(this).addClass('animate-' + index);
+				});
+			}
 		});
 	});
 })(jQuery);
