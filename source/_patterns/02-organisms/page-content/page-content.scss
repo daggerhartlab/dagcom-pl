@@ -1,0 +1,42 @@
+.page-wrapper {
+	position: relative;
+	&.has-image {
+		.page-content {
+			padding-top: 15vh;
+			margin-top: -15vh;
+			@include screen-md() {
+				padding-top: 25vh;
+				margin-top: -25vh;
+			}
+		}
+	}
+	.page-content {
+		padding: 40px 30px;
+		background: $bg-white;
+		color: $text-grey;
+		border-top-right-radius: 50px;
+		h1, h2, h3, h4 {
+			color: $text-navy;
+			font-weight: bold;
+		}
+		h2 {
+			font-size: 40px;
+		}
+		h3 {
+			font-size: 28px;
+		}
+	}
+	.image-container {
+		width: 80%;
+		max-width: 900px;
+		margin-bottom: 40px;
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 30vh;
+		@include screen-md() {
+			height: 50vh;
+		}
+	}
+}
