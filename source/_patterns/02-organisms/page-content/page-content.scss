@@ -11,10 +11,11 @@
 		}
 	}
 	.page-content {
-		padding: 40px 30px;
+		padding: 42px 36px;
 		background: $bg-white;
 		color: $text-grey;
 		border-top-right-radius: 50px;
+		max-width: 1200px;
 		h1, h2, h3, h4 {
 			color: $text-navy;
 			font-weight: bold;
@@ -24,6 +25,10 @@
 		}
 		h3 {
 			font-size: 28px;
+		}
+
+		@include screen-lg() {
+			padding: 72px;
 		}
 	}
 	.image-container {
