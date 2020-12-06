@@ -1,0 +1,11 @@
+{% if pages %}
+	<div class="pager {{ wrapper_classes }}">
+		<ul class="bg-white m-0 text-center inline-list">
+			<li><a href="#"><span class="icon-arrow-left-circle"><span class="sr-only">Previous</span></span></a></li>
+			{% for item in pages %}
+				<li><a class="{{ item.active ? 'active' : "" }}" href="{{ item.url }}">{{ item.text }}</a></li>
+			{% endfor %}
+			<li><a href="#"><span class="icon-arrow-right-circle"><span class="sr-only">Next</span></span></a></li>
+		</ul>
+	</div>
+{% endif %}

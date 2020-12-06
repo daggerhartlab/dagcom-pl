@@ -4,6 +4,15 @@
 		padding: 0
 	}
 }
+.row-spacer-top {
+	padding-top: ($spacer*20);
+}
 .row-spacer-bottom {
-	padding-bottom: 80px;
+	padding-bottom: ($spacer*20);
+}
+.row-half-spacer-top {
+	padding-top: ($spacer*10);
+}
+.row-half-spacer-bottom {
+	padding-bottom: ($spacer*10);
 }
