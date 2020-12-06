@@ -1,0 +1,26 @@
+/**
+ * Rough approximation of PrismJS - "Tomorrow Night" theme.
+ * https://prismjs.com/
+ */
+pre {
+	background-color: rgb(34, 37, 38);
+	color: rgb(200, 195, 188);
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+code {
+	display: inline-block;
+	padding: 0 4px;
+	background-color: rgb(34, 37, 38);
+	color: rgb(200, 195, 188);
+	font-weight: 500;
+}
+
+.page-content {
+	code {
+		background-color: $grey-light;
+		color: $text-grey;
+	}
+}

@@ -1,0 +1,81 @@
+<pre>
+simple_entity_collection_menu:
+  title: 'Simple entity list'
+  route_name: entity.simple.collection
+  description: 'List of Simple entities'
+  parent: system.admin_content
+
+simple_type_entity_collection_menu:
+  title: 'SimpleEntity Types'
+  route_name: entity.simple_type.collection
+  description: 'List of Simple entity types (bundles)'
+  parent: system.admin_structure
+</pre>
+
+<pre>
+/**
+ * @ContentEntityType(
+ *   id = "simple",
+ *   handlers = {
+ *     "route_provider" = {
+ *       "html" = "Drupal\Core\Entity\Routing\AdminHtmlRouteProvider",
+ *     },
+ *   },
+ *   links = {
+ *     "canonical" = "/simple/{simple}",
+ *     "add-page" = "/simple/add",
+ *     "add-form" = "/simple/add/{simple_type}",
+ *     "edit-form" = "/simple/{simple}/edit",
+ *     "delete-form" = "/simple/{simple}/delete",
+ *     "collection" = "/admin/content/simples",
+ *   }
+ * )
+ */
+</pre>
+
+<p>
+	Lorem ipsum dolor sit amet, <code>consectetur adipiscing elit</code>. Maecenas euismod eros et tincidunt ultricies. Vestibulum in pharetra nibh. Suspendisse pharetra orci nisl. Phasellus ullamcorper porttitor urna, sit amet convallis neque ullamcorper eget. In non facilisis erat, in mattis urna. Etiam nec erat scelerisque, luctus diam vel, venenatis quam. Suspendisse laoreet neque quis laoreet rhoncus. Sed in malesuada urna. Donec sit amet arcu vulputate, pharetra lorem at, blandit eros. Nullam quis ornare mauris. Nam dictum, neque nec laoreet aliquam, odio felis iaculis est, <code>non iaculis ipsum ante a eros. Donec pharetra est luctus nisl malesuada, eu tempor massa</code> ultricies.
+</p>
+
+<h2>Example on white (page content)</h2>
+
+<div class="page-wrapper"><div class="page-content">
+<pre>
+simple_entity_collection_menu:
+  title: 'Simple entity list'
+  route_name: entity.simple.collection
+  description: 'List of Simple entities'
+  parent: system.admin_content
+
+simple_type_entity_collection_menu:
+  title: 'SimpleEntity Types'
+  route_name: entity.simple_type.collection
+  description: 'List of Simple entity types (bundles)'
+  parent: system.admin_structure
+</pre>
+
+<pre>
+/**
+ * @ContentEntityType(
+ *   id = "simple",
+ *   handlers = {
+ *     "route_provider" = {
+ *       "html" = "Drupal\Core\Entity\Routing\AdminHtmlRouteProvider",
+ *     },
+ *   },
+ *   links = {
+ *     "canonical" = "/simple/{simple}",
+ *     "add-page" = "/simple/add",
+ *     "add-form" = "/simple/add/{simple_type}",
+ *     "edit-form" = "/simple/{simple}/edit",
+ *     "delete-form" = "/simple/{simple}/delete",
+ *     "collection" = "/admin/content/simples",
+ *   }
+ * )
+ */
+</pre>
+
+<p>
+	Lorem ipsum dolor sit amet, <code>consectetur adipiscing elit</code>. Maecenas euismod eros et tincidunt ultricies. Vestibulum in pharetra nibh. Suspendisse pharetra orci nisl. Phasellus ullamcorper porttitor urna, sit amet convallis neque ullamcorper eget. In non facilisis erat, in mattis urna. Etiam nec erat scelerisque, luctus diam vel, venenatis quam. Suspendisse laoreet neque quis laoreet rhoncus. Sed in malesuada urna. Donec sit amet arcu vulputate, pharetra lorem at, blandit eros. Nullam quis ornare mauris. Nam dictum, neque nec laoreet aliquam, odio felis iaculis est, <code>non iaculis ipsum ante a eros. Donec pharetra est luctus nisl malesuada, eu tempor massa</code> ultricies.
+</p>
+</div></div>
