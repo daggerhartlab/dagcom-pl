@@ -1,1 +1,4 @@
 wrapper_classes: row-half-spacer-bottom
+placeholder: 'Search Blogs'
+input_label: 'Enter Search Term'
+submit_value: ''

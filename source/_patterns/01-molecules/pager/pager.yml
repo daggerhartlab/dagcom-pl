@@ -1,13 +1,23 @@
 wrapper_classes: bg-white
 pages:
-  - text: '1'
-    url: '#'
-    active: true
-  - text: '2'
-    url: '#'
-    active: false
-  - text: '3'
-    url: '#'
-    active: false
-  - text: '4'
-    url: '#'
+  - title: '1'
+    link: '#'
+    class: ''
+    current: true
+  - title: '2'
+    link: '#'
+    class: ''
+    current: false
+  - title: '3'
+    link: '#'
+    class: ''
+    current: false
+  - title: '4'
+    link: '#'
+    class: ''
+prev:
+  link: '#'
+  class: ''
+next:
+  link: '#'
+  class: ''

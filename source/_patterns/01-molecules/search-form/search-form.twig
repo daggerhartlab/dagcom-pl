@@ -1,7 +1,7 @@
 <div class="search-form-wrapper {{ wrapper_classes }}">
 	<form class="search-form d-flex justify-content-between align-items-center white-bg text-left">
-		<label for="keyword" class="sr-only">Enter Search Term</label>
-		<input placeholder="Search Blogs" id="keyword" name="keyword" type="text" />
-		<input type="submit" >
+		<label for="s" class="sr-only">{{ input_label|default('Enter Search Term') }}</label>
+		<input placeholder="{{ placeholder|default('Search Blogs') }}" id="s" name="s" type="text" />
+		<input type="submit" value="{{ submit_value|default('') }}">
 	</form>
 </div>
