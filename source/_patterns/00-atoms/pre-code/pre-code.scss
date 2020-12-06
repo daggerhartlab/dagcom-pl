@@ -3,11 +3,13 @@
  * https://prismjs.com/
  */
 pre {
-	background-color: rgb(34, 37, 38);
-	color: rgb(200, 195, 188);
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
+	background-color: rgb(34, 37, 38);
+	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	font-size: inherit;
+	color: rgb(200, 195, 188);
 }
 
 code {
