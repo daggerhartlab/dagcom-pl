@@ -99,19 +99,14 @@ gulp.task('scss', function () {
 		.pipe(gulp.dest(config.scss.dest));
 });
 
-// @TODO: fonts.
-// // Task: Handle fonts
-// gulp.task('fonts', function () {
-//   return gulp.src(config.fonts.files)
-//     .pipe(gulp.dest(
-//       config.fonts.dest
-//     ))
-//     .pipe(browserSync.reload({stream:true}));
-// });
-
-// Task: patternlab
-// Description: Build the patternlab.
-gulp.task('patternlab', shell.task('npm run build'));
+// Task: Handle fonts
+gulp.task('fonts', function () {
+  return gulp.src(config.fonts.files)
+    .pipe(gulp.dest(
+      config.fonts.dest
+    ))
+    .pipe(browserSync.reload({stream:true}));
+});
 
 
 // task: BrowserSync
@@ -129,7 +124,6 @@ gulp.task('browser-sync', function () {
 
 // Task: Watch files
 gulp.task('watch', function () {
-	// @TODO: fonts.
 	gulp.watch(config.scripts.files, gulp.series('scripts', function (cb) {
 		browserSync.reload();
 		cb();
@@ -140,27 +134,60 @@ gulp.task('watch', function () {
 		cb();
 	}));
 
-	gulp.watch(config.patternlab.files, gulp.series('patternlab', function (cb) {
-		browserSync.reload();
-		cb();
-	}));
-
 	gulp.watch(config.images.files, gulp.series('images', function (cb) {
 		browserSync.reload();
 		cb();
 	}));
+
+	gulp.watch(config.fonts.files, gulp.series('fonts', function (cb) {
+		browserSync.reload();
+		cb();
+	}));
+
+	gulp.watch(config.patternlab.files, gulp.series('build:patternlab', function (cb) {
+		browserSync.reload();
+		cb();
+	}));
 });
+
+
+// Task: build:patternlab
+// Description: Build the patternlab.
+gulp.task('build:patternlab', shell.task('patternlab build --config patternlab-config.json'));
+
+// Task: build:assets
+// Description: Build the patternlab assets.
+gulp.task('build:assets', gulp.parallel('scripts', 'scss', 'images', 'fonts'));
 
 // Task: styleguide
 // Description: Copy Styleguide-Folder from core/ to public
 gulp.task('build:styleguide', function() {
-	return gulp.src(config.patternlab.styleguide.files)
-		.pipe(gulp.dest(config.patternlab.styleguide.dest));
+	let promises = [];
+
+	promises.push(
+		gulp.src(config.patternlab.styleguide.files)
+			.pipe(gulp.dest(config.patternlab.styleguide.dest))
+	);
+
+	// Styleguide doesn't seem to expect fonts, so we need to move them over.
+	// Use the folder name from the config.
+	const font_folder = config.fonts.dest.split('/').filter(part => part !== '').pop();
+	promises.push(
+		gulp.src(config.fonts.files)
+			.pipe(gulp.dest(config.patternlab.styleguide.dest + '/' + font_folder))
+	);
+
+	return Promise.all(promises);
 });
 
-// @TODO: fonts.
-gulp.task('build', gulp.series('clean:before', gulp.parallel('scripts', 'scss', 'images')));
+// Task: build
+// Description: Build all non-styleguide artifacts.
+gulp.task('build', gulp.series('clean:before', 'build:patternlab', 'build:assets'));
 
-gulp.task('styleguide', gulp.series('build', 'patternlab', gulp.parallel('scripts', 'scss', 'images'), 'build:styleguide'));
+// Task: build:styleguide
+// Description: Build styleguide artifacts.
+gulp.task('styleguide', gulp.series('build', 'build:styleguide'));
 
-gulp.task('default', gulp.series('build', 'patternlab', gulp.parallel('browser-sync', 'watch')));
+// Task: default
+// Description: Development.
+gulp.task('default', gulp.series('build', 'build:patternlab', gulp.parallel('browser-sync', 'watch')));

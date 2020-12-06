@@ -5,7 +5,6 @@
 	"main": "index.js",
 	"scripts": {
 		"gulp": "gulp",
-		"build": "patternlab build --config patternlab-config.json",
 		"pl:install": "patternlab install --config patternlab-config.json"
 	},
 	"repository": {
