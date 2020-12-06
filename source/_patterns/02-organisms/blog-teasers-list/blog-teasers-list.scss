@@ -1,40 +1,24 @@
 .blog-teasers-list {
-	h2 {
-		color: $heading-white;
+	.container-constrained {
+		max-width: 900px;
 	}
-	.posts-wrapper {
-		padding: 20px;
-	}
-	.card-wrapper {
-		position: relative;
-		@include screen-lg() {
-			&:after {
-				content: '';
-				display: block;
-				position: absolute;
-				top: 0;
-				bottom: 0;
-				right: 0px;
-				width: 1px;
-				background: rgba(240, 106, 156, 0.22);
-			}
-			&:last-of-type:after {
-				display: none;
-			}
-		}
-	}
-	.blog-teaser-card {
+	.blog-teaser {
 		padding: 42px;
 		height: 100%;
 		background: $bg-white;
 		font-size: 16px;
+		margin-bottom: 20px;
+		border-top: 10px solid transparent;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
 		@include screen-lg() {
 			transition: all .2s ease-in-out;
 			&:hover {
-				transform: translateY(-50px);
+				border-color: $border-pink;
 			}
 		}
-		h3 {
+		h2 {
 			font-size: 32px;
 			text-transform: none;
 			padding-bottom: 10px;
@@ -52,6 +36,9 @@
 		}
 		.teaser-image {
 			margin-bottom: 20px;
+			@include screen-md() {
+				margin-bottom: 0;
+			}
 			img {
 				width: 100%;
 				height: 200px;
@@ -68,4 +55,5 @@
 			color: $text-navy;
 		}
 	}
+
 }

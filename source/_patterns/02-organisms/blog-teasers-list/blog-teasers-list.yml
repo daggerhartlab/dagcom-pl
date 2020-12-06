@@ -1,6 +1,3 @@
-heading: Curabitur non nulla sit amet
-button_text: Lorem Ipsum
-button_url: '#'
 image_default: '/assets/images/examples/post-default.png'
 items:
   - title: Blog Post Most Recent
@@ -24,3 +21,19 @@ items:
     topic_url:
     image: /assets/images/examples/post-3.jpg
     alt: ''
+pager:
+  wrapper_classes: bg-white
+  pages:
+    - text: '1'
+      url: '#'
+      active: true
+    - text: '2'
+      url: '#'
+      active: false
+    - text: '3'
+      url: '#'
+      active: false
+    - text: '4'
+      url: '#'
+search:
+  wrapper_classes: row-half-spacer-bottom
