@@ -1,0 +1,4 @@
+search:
+  wrapper_classes: row-spacer row-half-spacer-bottom
+blog_teasers_list: 'patternData@02-organisms/blog-teasers-list/blog-teasers-list'
+pager: 'patternData@01-molecules/pager/pager'

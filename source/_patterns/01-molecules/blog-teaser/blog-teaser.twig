@@ -1,0 +1,14 @@
+<div class="blog-teaser bg-white d-md-flex">
+	{% if image_src %}
+		<div class="teaser-image col-md-4">
+			<a href="{{ url }}"><img src="{{ image_src }}" alt="{{ image_alt }}"/></a>
+		</div>
+	{% endif %}
+	<div class="teaser-content">
+		<a class="topic d-block" href="{{ topic_url }}">{{ topic }}</a>
+		<h2><a class="d-block" href="{{ url }}">{{ title }}</a></h2>
+		<div>
+			<a class="clickable-content" href="{{ url }}">{{ content }}</a>
+		</div>
+	</div>
+</div>

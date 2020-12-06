@@ -1,39 +1,22 @@
-image_default: '/assets/images/examples/post-default.png'
 items:
   - title: Blog Post Most Recent
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: '#'
     topic: topic
     topic_url:
-    image: /assets/images/examples/post-1.jpg
-    alt: ''
+    image_src: /assets/images/examples/post-1.jpg
+    image_alt: ''
   - title: 'Blog Post No Image'
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: '#'
     topic: topic
     topic_url:
-    image:
-    alt: ''
+    image_src:
+    image_alt: ''
   - title: 'Blog Post Last'
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: '#'
     topic: topic
     topic_url:
-    image: /assets/images/examples/post-3.jpg
-    alt: ''
-pager:
-  wrapper_classes: bg-white
-  pages:
-    - text: '1'
-      url: '#'
-      active: true
-    - text: '2'
-      url: '#'
-      active: false
-    - text: '3'
-      url: '#'
-      active: false
-    - text: '4'
-      url: '#'
-search:
-  wrapper_classes: row-half-spacer-bottom
+    image_src: /assets/images/examples/post-3.jpg
+    image_alt: ''

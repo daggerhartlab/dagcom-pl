@@ -1,4 +1,4 @@
-wrapper_classes: container bg-white
+wrapper_classes: bg-white
 pages:
   - text: '1'
     url: '#'
