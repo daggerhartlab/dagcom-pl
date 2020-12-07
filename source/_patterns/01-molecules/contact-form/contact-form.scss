@@ -7,7 +7,7 @@
 		@include screen-md() {
 			padding: 56px 56px 40px;
 		}
-		textarea, input {
+		textarea, input:not([type=submit]) {
 			display: block;
 			width: 100%;
 			padding: 10px 20px;
@@ -30,6 +30,29 @@
 	.success-message,
 	.error-message {
 		display: none;
+	}
+}
+
+/**
+ * Contact Form 7 stuff
+ * https://contactform7.com/styling-contact-form/
+ */
+.wpcf7 form {
+	.wpcf7-response-output,
+	.wpcf7-not-valid-tip {
+		color: $text-navy;
+	}
+	&.sent {
+		.wpcf7-response-output {
+
+		}
+	}
+	&.failed,
+	&.invalid,
+	&.aborted {
+		.wpcf7-response-output {
+			background-color: $pink;
+		}
 	}
 }
 

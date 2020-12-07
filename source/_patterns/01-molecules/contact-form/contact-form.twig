@@ -13,7 +13,7 @@
 		{% if helper_text %}
 		<div class="form-help-text">{{ helper_text }}</div>
 		{% endif %}
-		<button type="submit" data-wait="Please wait..." class="btn btn-primary dark-text">{{ submit.text }}</button>
+		<input type="submit" data-wait="Please wait..." class="btn btn-primary dark-text" value="{{ submit.text }}">
 	</form>
 	<div class="container success-message">
 		<img src="{{ success.image_src }}" />
