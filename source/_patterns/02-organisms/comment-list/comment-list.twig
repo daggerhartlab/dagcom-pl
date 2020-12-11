@@ -9,7 +9,11 @@
 		{% endif %}
 		</div>
 		<div class="content">
-			{% include '01-molecules/comment/comment.twig' with comments %}
+			{% if comments %}
+				{% for comment in comments %}
+					{% include '01-molecules/comment/comment.twig' with comment %}
+				{% endfor %}
+			{% endif %}
 		</div>
 	</div>
 </div>
