@@ -1,22 +1,22 @@
-.contact-form {
+.comment-form {
 	form {
 		max-width: 1200px;
 		margin: 0 auto;
-		background: $green-neon;
 		padding: 20px;
 		@include screen-md() {
 			padding: 56px 56px 40px;
 		}
 		textarea, input:not([type=submit]) {
-			border: 2px solid $navy;
+			border: 2px solid white;
 			display: block;
 			width: 100%;
 			padding: 10px 20px;
 			margin-bottom: 20px;
+			background-color: rgba(255,255,255,.1);
 		}
 		label {
 			display: block;
-			color: $text-navy;
+			color: $text-white;
 			text-transform: uppercase;
 			font-weight: bold;
 			margin-bottom: 2px;
@@ -33,27 +33,3 @@
 		display: none;
 	}
 }
-
-/**
- * Contact Form 7 stuff
- * https://contactform7.com/styling-contact-form/
- */
-.wpcf7 form {
-	.wpcf7-response-output,
-	.wpcf7-not-valid-tip {
-		color: $text-navy;
-	}
-	&.sent {
-		.wpcf7-response-output {
-
-		}
-	}
-	&.failed,
-	&.invalid,
-	&.aborted {
-		.wpcf7-response-output {
-			background-color: $pink;
-		}
-	}
-}
-
