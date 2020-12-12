@@ -1,0 +1,29 @@
+<div class="comment-form">
+	<form action="{{ submit.action }}" id="comment-form" name="comment-form" data-name="Comment Form">
+		{% if input_fields %}
+			{% for item in input_fields %}
+				<label for="{{ item.id }}">{{ item.label }}{{ item.required ? '*' : "" }}</label>
+				{% if item.type == 'textarea' %}
+					<textarea rows="5" id="{{ item.id }}" name="{{ item.id }}" placeholder="{{ item.placeholder }}" {{ item.required ? 'required' : "" }}></textarea>
+				{% else %}
+					<input type="{{ item.type }}" class="{{ item.classes }}" name="{{ item.id }}" id="{{ item.id }}" placeholder="{{ item.placeholder }}" {{ item.required ? 'required' : "" }} />
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+		{% if helper_text %}
+			<div class="form-help-text">{{ helper_text }}</div>
+		{% endif %}
+		<input type="submit" data-wait="Please wait..." class="btn btn-primary" value="{{ submit.text }}">
+	</form>
+	<div class="container success-message">
+		<img src="{{ success.image_src }}" />
+		<h3 class="h2">{{ success.title }}</h3>
+		<p>{{ success.content }}</p>
+	</div>
+	<div class="container error-message">
+		<img src="{{ error.image_src }}" />
+		<h3 class="h2">{{ error.title }}</h3>
+		<p>{{ error.content }}</p>
+	</div>
+</div>
+
