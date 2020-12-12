@@ -23,7 +23,7 @@ children:
     reply_url: '#'
     reply_text: Reply
     content: 'Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
-    third_level:
+    children:
       - comment_id: 1234
         author_image_src: '/assets/images/examples/labby-avatar.png'
         author_image_alt: 'Labby'

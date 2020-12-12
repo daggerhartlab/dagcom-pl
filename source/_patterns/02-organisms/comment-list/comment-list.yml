@@ -26,8 +26,8 @@ comments:
         date: November 21, 2020
         reply_url: '#'
         reply_text: Reply
-        content: 'Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
-        third_level:
+        content: '2nd Level - Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
+        children:
           - comment_id: 1234
             author_image_src: '/assets/images/examples/lindsey-avatar.png'
             author_image_alt: 'Lindsey'
@@ -35,7 +35,49 @@ comments:
             date: November 21, 2020
             reply_url: '#'
             reply_text: Reply
-            content: 'Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
+            content: '3rd Level - Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
+          - comment_id: 1234
+            author_image_src: '/assets/images/examples/lindsey-avatar.png'
+            author_image_alt: 'Lindsey'
+            author_name: 'Lindsey'
+            date: November 21, 2020
+            reply_url: '#'
+            reply_text: Reply
+            content: '3rd Level - Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
+            children:
+              - comment_id: 1234
+                author_image_src: '/assets/images/examples/lindsey-avatar.png'
+                author_image_alt: 'Lindsey'
+                author_name: 'Lindsey'
+                date: November 21, 2020
+                reply_url: '#'
+                reply_text: Reply
+                content: '4th Level - Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
+              - comment_id: 1234
+                author_image_src: '/assets/images/examples/lindsey-avatar.png'
+                author_image_alt: 'Lindsey'
+                author_name: 'Lindsey'
+                date: November 21, 2020
+                reply_url: '#'
+                reply_text: Reply
+                content: '4th Level - Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
+                children:
+                  - comment_id: 1234
+                    author_image_src: '/assets/images/examples/lindsey-avatar.png'
+                    author_image_alt: 'Lindsey'
+                    author_name: 'Lindsey'
+                    date: November 21, 2020
+                    reply_url: '#'
+                    reply_text: Reply
+                    content: '5th Level - Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
+                  - comment_id: 1234
+                    author_image_src: '/assets/images/examples/lindsey-avatar.png'
+                    author_image_alt: 'Lindsey'
+                    author_name: 'Lindsey'
+                    date: November 21, 2020
+                    reply_url: '#'
+                    reply_text: Reply
+                    content: '5th Level - Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
       - comment_id: 1234
         author_image_src: '/assets/images/examples/labby-avatar.png'
         author_image_alt: 'Labby'

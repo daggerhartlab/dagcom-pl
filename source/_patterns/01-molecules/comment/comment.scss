@@ -21,17 +21,18 @@
 			text-decoration: underline;
 		}
 	}
-	.single-reply {
+	.single-comment {
 		margin: 30px 0;
+		border: none;
 		border-left: 1px solid $border-pink;
 		padding: 15px 30px;
 	}
-	.single-reply .single-reply .single-reply .single-reply,
-	.single-reply .single-reply {
+	.single-comment .single-comment .single-comment .single-comment,
+	.single-comment .single-comment {
 		border-color: rgba(255,255,255,.6);
 	}
-	.single-reply .single-reply .single-reply .single-reply .single-reply,
-	.single-reply .single-reply .single-reply {
+	.single-comment .single-comment .single-comment .single-comment .single-comment,
+	.single-comment .single-comment .single-comment {
 		border-color: $border-pink;
 	}
 }
