@@ -15,16 +15,19 @@
 @import "../_patterns/00-atoms/spinner-pulse/spinner-pulse";
 @import "../_patterns/00-atoms/table/table";
 
+@import "../_patterns/01-molecules/blog-teaser/blog-teaser";
+@import "../_patterns/01-molecules/comment/comment";
 @import "../_patterns/01-molecules/menu/menu";
 @import "../_patterns/01-molecules/comment-form/comment-form";
 @import "../_patterns/01-molecules/contact-form/contact-form";
+@import "../_patterns/01-molecules/menu/menu";
 @import "../_patterns/01-molecules/pager/pager";
 @import "../_patterns/01-molecules/search-form/search-form";
-@import "../_patterns/01-molecules/blog-teaser/blog-teaser";
 
 @import "../_patterns/02-organisms/blog-teaser-cards-list/blog-teaser-cards-list";
 @import "../_patterns/02-organisms/blog-teasers-list/blog-teasers-list";
 @import "../_patterns/02-organisms/bootstrap/navbar/navbar";
+@import "../_patterns/02-organisms/comment-list/comment-list";
 @import "../_patterns/02-organisms/content-html/content-html";
 @import "../_patterns/02-organisms/cta-block-animated/cta-block-animated";
 @import "../_patterns/02-organisms/cta-block-media/cta-block-media";

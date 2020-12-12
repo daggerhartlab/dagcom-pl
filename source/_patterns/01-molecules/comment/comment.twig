@@ -1,0 +1,69 @@
+<div class="single-comment">
+	<div class="row">
+		<div class="col-1 avatar"><img src="{{ author_image_src }}" alt="{{ author_image_alt }}" /></div>
+		<div class="col-11">
+			<div class="author">{{ author_name }}</div>
+			<div class="date">{{ date }}</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col comment-content">
+			{{ content }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col reply-link">
+			<a href="{{ reply_url }}">{{ reply_text }}</a>
+		</div>
+	</div>
+	{% if children %}
+	<div class="replies-wrapper">
+		<div class="col comment-replies">
+			{% for reply in children %}
+				<div class="single-reply">
+					<div class="row">
+						<div class="col-1 avatar"><img src="{{ reply.author_image_src }}" alt="{{ reply.author_image_alt }}" /></div>
+						<div class="col-11">
+							<div class="author">{{ reply.author_name }}</div>
+							<div class="date">{{ reply.date }}</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col comment-content">
+							{{ reply.content }}
+						</div>
+					</div>
+					<div class="row">
+						<div class="col reply-link">
+							<a href="{{ reply_url }}">{{ reply_text }}</a>
+						</div>
+					</div>
+					{% if reply.third_level %}
+						{% for reply in reply.third_level %}
+							<div class="single-reply">
+								<div class="row">
+									<div class="col-1 avatar"><img src="{{ reply.author_image_src }}" alt="{{ reply.author_image_alt }}" /></div>
+									<div class="col-11">
+										<div class="author">{{ reply.author_name }}</div>
+										<div class="date">{{ reply.date }}</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col comment-content">
+										{{ reply.content }}
+									</div>
+								</div>
+								<div class="row">
+									<div class="col reply-link">
+										<a href="{{ reply_url }}">{{ reply_text }}</a>
+									</div>
+								</div>
+							</div>
+						{% endfor %}
+					{% endif %}
+			</div>
+			{% endfor %}
+		</div>
+	{% endif %}
+	</div>
+</div>

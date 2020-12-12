@@ -1,0 +1,19 @@
+<div class="comment-list">
+	<div class="container">
+		<div class="text-center">
+			{% if subheading %}
+				<div class="pre-heading">{{ subheading }}</div>
+			{% endif %}
+			{% if heading %}
+			<{{ heading_level|default('h2') }} class="h2">{{ heading }}</{{ heading_level|default('h2') }}>
+		{% endif %}
+		</div>
+		<div class="content">
+			{% if comments %}
+				{% for comment in comments %}
+					{% include '01-molecules/comment/comment.twig' with comment %}
+				{% endfor %}
+			{% endif %}
+		</div>
+	</div>
+</div>
