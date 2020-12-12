@@ -1,7 +1,13 @@
 .single-comment {
-	padding: 30px;
+	padding: 12px 6px;
 	border: 1px solid rgba(255,255,255,.12);
 	margin: 40px 0;
+	@include screen-md() {
+		padding: 30px;
+	}
+	.avatar img {
+		width: 92px;
+	}
 	.author {
 		font-size: 22px;
 		font-weight: 400;
@@ -25,7 +31,9 @@
 		margin: 30px 0;
 		border: none;
 		border-left: 1px solid $border-pink;
-		padding: 15px 30px;
+		@include screen-md() {
+			padding: 15px 30px;
+		}
 	}
 	.single-comment .single-comment .single-comment .single-comment,
 	.single-comment .single-comment {

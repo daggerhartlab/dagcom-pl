@@ -1,12 +1,14 @@
-.comment-form {
+.comment-respond {
 	form {
 		max-width: 1200px;
+		color: $text-white;
 		margin: 0 auto;
 		padding: 20px;
 		@include screen-md() {
 			padding: 56px 56px 40px;
 		}
 		textarea, input:not([type=submit]) {
+			color: $text-white;
 			border: 2px solid white;
 			display: block;
 			width: 100%;
@@ -14,9 +16,12 @@
 			margin-bottom: 20px;
 			background-color: rgba(255,255,255,.1);
 		}
+		input[type=submit] {
+			@extend .btn;
+			@extend .btn-primary;
+		}
 		label {
 			display: block;
-			color: $text-white;
 			text-transform: uppercase;
 			font-weight: bold;
 			margin-bottom: 2px;
@@ -31,5 +36,12 @@
 	.success-message,
 	.error-message {
 		display: none;
+	}
+
+	.comment-reply-title {
+		small {
+			font-size: small;
+			display: block;
+		}
 	}
 }

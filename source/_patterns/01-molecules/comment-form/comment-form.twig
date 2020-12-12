@@ -1,4 +1,4 @@
-<div class="comment-form">
+<div class="comment-respond">
 	<form action="{{ submit.action }}" id="comment-form" name="comment-form" data-name="Comment Form">
 		{% if input_fields %}
 			{% for item in input_fields %}
@@ -13,7 +13,7 @@
 		{% if helper_text %}
 			<div class="form-help-text">{{ helper_text }}</div>
 		{% endif %}
-		<input type="submit" data-wait="Please wait..." class="btn btn-primary" value="{{ submit.text }}">
+		<input type="submit" data-wait="Please wait..." value="{{ submit.text }}">
 	</form>
 	<div class="container success-message">
 		<img src="{{ success.image_src }}" />
