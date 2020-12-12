@@ -1,5 +1,10 @@
 heading: Join the Conversation
 input_fields:
+  - label: Message
+    id: message
+    type: textarea
+    placeholder: How can we help you?
+    required: false
   - label: Name
     id: name
     type: text
@@ -10,11 +15,6 @@ input_fields:
     type: text
     placeholder: Email Address
     required: true
-  - label: Message
-    id: message
-    type: textarea
-    placeholder: How can we help you?
-    required: false
 submit:
   action: ''
   text: 'Submit Form'

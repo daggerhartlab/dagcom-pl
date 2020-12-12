@@ -1,12 +1,22 @@
 .comment-respond {
-	form {
-		max-width: 1200px;
-		color: $text-white;
-		margin: 0 auto;
-		padding: 20px;
-		@include screen-md() {
-			padding: 56px 56px 40px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	@include screen-md() {
+		padding: 56px 40px;
+	}
+
+	.comment-reply-title {
+		margin: 0 0 20px;
+		color: $green-neon;
+		small {
+			display: block;
+			margin: 6px;
+			font-size: 18px;
 		}
+	}
+	form {
+		color: $text-white;
 		textarea, input:not([type=submit]) {
 			color: $text-white;
 			border: 2px solid white;
@@ -36,12 +46,5 @@
 	.success-message,
 	.error-message {
 		display: none;
-	}
-
-	.comment-reply-title {
-		small {
-			font-size: small;
-			display: block;
-		}
 	}
 }
