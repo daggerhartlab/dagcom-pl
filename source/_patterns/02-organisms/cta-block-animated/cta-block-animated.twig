@@ -9,7 +9,9 @@
 			</div>
 			<div class="col-lg-6 text-center text-sm-right">
 				<div class="animate-right">
-					<a class="btn {{ button_class }}" href="{{ link_url }}">{{ link_text }}</a>
+					{% if link_url and link_text %}
+						<a class="btn {{ button_class }}" href="{{ link_url }}">{{ link_text }}</a>
+					{% endif %}
 				</div>
 			</div>
 		</div>

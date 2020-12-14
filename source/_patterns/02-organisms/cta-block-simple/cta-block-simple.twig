@@ -5,7 +5,9 @@
 				<div class="pre-heading">{{ subheading }}</div>
 				<h2 class="font-weight-bold">{{ heading }}</h2>
 				<div class="text-content">{{ content }}</div>
-				<a class="btn {{ button_class }}" href="{{ link_url }}">{{ link_text }}</a>
+				{% if link_url and link_text %}
+					<a class="btn {{ button_class }}" href="{{ link_url }}">{{ link_text }}</a>
+				{% endif %}
 			</div>
 		</div>
 	</div>

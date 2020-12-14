@@ -8,7 +8,9 @@
 					<img src="{{ image_src }}" alt="{{ image_alt }}" />
 				</div>
 				<div class="text-content">{{ content }}</div>
-				<a href="{{ link_url }}" class="btn btn-primary">{{ link_text }}</a>
+				{% if link_url and link_text %}
+					<a href="{{ link_url }}" class="btn btn-primary">{{ link_text }}</a>
+				{% endif %}
 			</div>
 		</div>
 	</div>
