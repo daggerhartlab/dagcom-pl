@@ -22,7 +22,9 @@
 			<div class="col-md-5 offset-md-1">
 				<h2>{{ heading }}</h2>
 				<div class="text-content">{{ content }}</div>
-				<a class="btn {{ button_class }}" href="{{ link_url }}">{{ link_text }}</a>
+				{% if link_url and link_text %}
+					<a class="btn {{ button_class }}" href="{{ link_url }}">{{ link_text }}</a>
+				{% endif %}
 			</div>
 		</div>
 	</div>
