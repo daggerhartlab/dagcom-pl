@@ -1,5 +1,5 @@
 ## Template values.
-navbar: 'patternData@02-organisms/bootstrap/navbar/navbar'
+navbar: 'patternData@02-organisms/header/header'
 footer: 'patternData@02-organisms/footer/footer'
 
 ## Page values.
