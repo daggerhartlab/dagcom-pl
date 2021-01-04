@@ -1,6 +1,7 @@
 .blog-teaser-cards-list {
 	h2 {
 		color: $heading-white;
+		margin-right: 20px;
 	}
 	.posts-wrapper {
 		padding: 20px;
@@ -75,6 +76,11 @@
 		}
 		a.clickable-content {
 			color: $text-navy;
+		}
+		code,
+		pre {
+			color: white;
+			padding: 0 5px;
 		}
 	}
 }

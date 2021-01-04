@@ -1,4 +1,4 @@
-heading: Curabitur non nulla sit amet
+heading: Curabitur non nulla sit amet consectetur adipiscing elit
 link_text: Lorem Ipsum
 link_url: '#'
 image_default_src: '/assets/images/examples/post-default.png'
@@ -12,7 +12,7 @@ items:
     image_src: /assets/images/examples/post-1.jpg
     image_alt: ''
   - title: 'Blog Post No Image'
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <code>some code here</code> Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nunc ut sem vitae risus tristique posuere.
     url: '#'
     topic: topic
     topic_url:

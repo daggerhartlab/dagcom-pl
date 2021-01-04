@@ -13,6 +13,8 @@
 		}
 	}
 	.text-wrapper {
+		padding-top: $spacer*20;
+		padding-bottom: $spacer*20;
 		width: 100%;
 		@include screen-lg() {
 			width: 40%;
