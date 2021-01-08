@@ -5,6 +5,9 @@ header.header {
 	.navbar.navbar-dark {
 		padding-top: 0;
 		.navbar-nav {
+			.nav-item:before {
+				display: none;
+			}
 			.nav-link {
 				color: $white;
 				font-size: 18px;
@@ -56,6 +59,9 @@ header.header {
 		}
 		li {
 			margin-left: 10px;
+			&:before {
+				display: none;
+			}
 			a {
 				color: $icon-grey;
 				&:hover,

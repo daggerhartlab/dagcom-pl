@@ -1,5 +1,12 @@
 {% if items %}
-	<ul class="bulleted">
+	<div class="bg-green">
+		<ul>
+			{% for item in items %}
+				<li>{{ item }}</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<ul>
 		{% for item in items %}
 			<li>{{ item }}</li>
 		{% endfor %}
