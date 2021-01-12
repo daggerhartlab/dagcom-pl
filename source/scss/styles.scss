@@ -62,7 +62,7 @@
 	}
 }
 
-// Hide recaptcha badge.
+// Hide recaptcha badge. We can do this because we have links about recaptcha on the contact form.
 .grecaptcha-badge {
-	display: none;
+	display: none !important;
 }
