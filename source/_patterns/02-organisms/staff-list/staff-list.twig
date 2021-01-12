@@ -8,14 +8,18 @@
 				<img src="{{ item.image_src }}" alt="{{ item.image_alt }}" />
 				<div class="staff-name text-uppercase">{{ item.title }}</div>
 				<div class="open-src-links d-flex">
+					{% if item.drupal_link %}
 					<a href="{{ item.drupal_link }}">
 						<span class="sr-only">Drupal icon</span>
 						{{ source(pattern_assets_dir ~ '/images/icon/brand-drupal.svg') }}
 					</a>
+					{% endif %}
+					{% if item.github_link %}
 					<a href="{{ item.github_link }}">
 						<span class="sr-only">Github icon</span>
 						{{ source(pattern_assets_dir ~ '/images/icon/brand-github.svg') }}
 					</a>
+					{% endif %}
 				</div>
 				<div class="staff-bio">{{ item.content }}</div>
 			</div>
