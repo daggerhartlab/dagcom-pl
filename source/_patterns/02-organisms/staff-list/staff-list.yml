@@ -2,30 +2,35 @@ heading: Lorem ipsum dolor sit
 subheading: preheading
 items:
   - title: Jonathan Daggerhart
+    role: President, Web Architect
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
     image_src: /assets/images/profile/jonathan-cards.png
     image_alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Justin Rhodes
+    role: Business Development
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
     image_src: /assets/images/profile/justin-camps.png
     image_alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Michelle Darling
+    role: Front End Developer
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
     image_src: /assets/images/profile/michelle-rocks.png
     image_alt: ''
     drupal_link: '#'
     github_link: '#'
   - title: Kristen Littlefield
+    role: Sr. Project Manager
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
     image_src: /assets/images/profile/kristen-juggles.png
     image_alt: ''
     github_link: '#'
     drupal_link: '#'
   - title: Chris Runo
+    role: Web Architect
     content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
     image_src: /assets/images/profile/chris-jammin.png
     image_alt: ''

@@ -7,6 +7,9 @@
 			<div class="staff-card">
 				<img src="{{ item.image_src }}" alt="{{ item.image_alt }}" />
 				<div class="staff-name text-uppercase">{{ item.title }}</div>
+				{% if item.role %}
+					<div class="staff-role">{{ item.role }}</div>
+				{% endif %}
 				<div class="open-src-links d-flex">
 					{% if item.drupal_link %}
 					<a href="{{ item.drupal_link }}">
