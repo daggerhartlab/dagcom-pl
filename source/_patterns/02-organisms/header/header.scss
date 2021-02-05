@@ -12,6 +12,10 @@ header.header {
 				color: $white;
 				font-size: 18px;
 				font-weight: bold;
+				&:focus,
+				&:hover {
+					color: $link-color;
+				}
 			}
 		}
 		.dropdown-menu {
