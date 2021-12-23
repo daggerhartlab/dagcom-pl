@@ -1,6 +1,21 @@
 .staff-list {
 	.card-wrapper {
 		margin-top: $spacer*10;
+		display: flex; // for browsers that don't support grid
+		flex-wrap: wrap;
+		justify-content: space-around;
+		@include screen-sm() {
+			display: grid;
+			grid-gap: 30px;
+			grid-template-columns: 1fr 1fr;
+		}
+		@include screen-md() {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+		@include screen-xl() {
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		}
+
 	}
 	.staff-name {
 		margin-top: 15px;
@@ -9,21 +24,21 @@
 		font-size: 14px;
 	}
 	.staff-card {
-		width: 100%;
+		flex-basis: 100%;
 		margin-top: 30px;
 		@include screen-sm() {
-			width: 45%;
-		}
-		@include screen-md() {
-			width: 30%;
-		}
-		@include screen-xl() {
-			width: 17%;
-		}
-		@include screen-sm() {
+			flex-basis: 45%;
 			&:nth-of-type(even) {
 				margin-top: $spacer*25;
 			}
+		}
+		@include screen-md() {
+			flex-basis: 30%;
+		}
+		@include screen-xl() {
+			flex-basis: 17%;
+		}
+		@include screen-sm() {
 		}
 	}
 	.open-src-links {
