@@ -36,3 +36,17 @@ items:
     image_alt: ''
     github_link: '#'
     drupal_link: '#'
+  - title: Michelle Darling
+    role: Front End Developer
+    content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+    image_src: /assets/images/profile/michelle-rocks.png
+    image_alt: ''
+    drupal_link: '#'
+    github_link: '#'
+  - title: Michelle Darling
+    role: Front End Developer
+    content: Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+    image_src: /assets/images/profile/michelle-rocks.png
+    image_alt: ''
+    drupal_link: '#'
+    github_link: '#'
