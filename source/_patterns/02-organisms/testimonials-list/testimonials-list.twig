@@ -1,0 +1,12 @@
+<div class="testimonials-list bg-navy row-spacer-top">
+	<div class="container">
+		<h2 class="row-half-spacer-bottom text-white">{{ heading }}</h2>
+		<div class="row">
+			{% if items %}
+				{% for item in items %}
+					{% include '@molecules/testimonial/testimonial.twig' with item %}
+				{% endfor %}
+			{% endif %}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+.testimonial {
+	color: $text-navy;
+	text-align: center;
+	.wrapper {
+		background: $bg-green;
+		padding: 40px 20px;
+		margin-bottom: 30px;
+		.author-name {
+			font-weight: bold;
+			margin-top: $spacer*2;
+			&:before {
+				content: '- ';
+			}
+		}
+		.author-info {
+			font-style: italic;
+		}
+	}
+}
