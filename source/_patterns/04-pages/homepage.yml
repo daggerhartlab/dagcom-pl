@@ -30,3 +30,4 @@ cta_block_animated_pink:
   link_url: '#'
   bg_color: pink
   button_class: btn-light
+testimonials_list: 'patternData@02-organisms/testimonials-list/testimonials-list'
