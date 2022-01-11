@@ -4,7 +4,13 @@
 		<div class="row">
 			{% if items %}
 				{% for item in items %}
-					{% include '@molecules/testimonial/testimonial.twig' with item %}
+					<div class="testimonial col-lg-4">
+						<div class="wrapper">
+							<div class="content">{{ item.content }}</div>
+							<div class="author-name">{{ item.author_name }}</div>
+							<div class="author-info">{{ item.author_info }}</div>
+						</div>
+					</div>
 				{% endfor %}
 			{% endif %}
 		</div>
